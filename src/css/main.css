@@ -3,14 +3,17 @@ html { height: 100%; }
 body { 
     min-height: 100%;  
     padding:10px 30px 0px 30px;
+    min-width:770px;
 }
 #sidebar{
 	width:45px;
-	background-color:#424242;
+	background-color:#afa89c;
+    border-radius: 5px;
+    opacity:.85;
 	padding:0px;
-	position:fixed;
-    height:90vh;
-    margin:3vh 0px 0px 10px;
+    position:fixed;
+    height:300px;
+    margin:3vh 0px 0px 20px;
     z-index:100;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
@@ -20,50 +23,57 @@ body {
 	color:white;
 	font-size:18px;
 	padding:13px;
-	height:50px;
+	height:60px;
 }
-#topmenu{
-
+#dropdownelementmain{
+    padding:13px 13px 80px 13px;
+    font-size:15px;
+    padding-left:14px;
+    text-decoration:none;
+    list-style-type: none;
+    color:white;
+    font-size:18px;
+    height:50px;
 }
-.menuitem{
-
-}
-
-
 
 #homepageheadercontainer{
-    padding:75px 0px 20px 0px;
-    background-color: rgba(0,0,0,.8);
-    min-width:481px;
+    padding:140px 0px 140px 120px;
+    background-color: rgba(0,0,0,0.1);
+    min-width:450px;
 }
 #headertitle{
-    font-size:40px;
+    font-size:35px;
     font-family: 'Raleway';
-    color:white;
-    text-align: center;
     margin-bottom:15px;
+    width:75vw;
 }
 #headerdescription{
-    font-family: 'Anaheim';
-    color: #ffab91;
-    width:180px;
+    font-family: 'Raleway';
+    color: #ff7043;
     padding:5px;
-    margin:auto;
+    font-size: 20px;
+    white-space: nowrap;
 }
-
-
-
+#headerhr{
+    height:2px;
+    width:85px;
+    background-color:black;
+    margin:5px 0px 30px 0px;
+}
+#description{
+    font-family: 'Anaheim'; 
+    font-size:15px;
+    width:40vw;
+    padding-right:0px;
+    color:#7a7a7a;
+}
 
 
 #homepagegifcontainer{
 	width:415px;
     height:440px;
-    margin:auto;
     padding:5px;
-    background-color: white;
-    border-style: solid;
-    border-width:thin;
-    border-radius:6px;
+    float:right;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
@@ -75,3 +85,29 @@ body {
     position: absolute;
 
 }
+
+
+#overviewcontainer{
+    background-color: rgba(0,0,0,0.6);
+    min-width:400px;
+    padding:20px 25px 30px 25px;
+}
+
+
+.overviewmain1{
+    color:#e0e0e0;
+    font-size:16px;
+    border: 2px solid rgba(255,255,255,.25);
+    padding:14px 19px 20px 19px;
+    text-align: center;
+    background-color: rgba(255,255,255,.1);
+    font-family: 'Anaheim';
+}
+
+
+
+
+
+
+
+
