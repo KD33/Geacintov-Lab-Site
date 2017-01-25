@@ -10,6 +10,7 @@
     <script src="./js/react-dom.min.js"></script>
     <script src="./js/browser.min.js"></script>
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -22,7 +23,7 @@
 
 
 
-    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono|Anaheim|Dosis|Droid+Serif|Raleway|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anaheim|Dosis|Catamaran|Raleway:200|Roboto" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/main.css">
 
@@ -30,8 +31,8 @@
 </head>
 <body>
 
-    <ul id = "dropdownmenu">
-                <li class = "dropdownelement" style = "padding-bottom:25vh;font-size:15px;padding-left:14px;"> <span class="glyphicon glyphicon-menu-hamburger"></span></li>
+    <ul id = "sidebar">
+        <li class = "dropdownelement" style = "padding-bottom:25vh;font-size:15px;padding-left:14px;"> <span class="glyphicon glyphicon-menu-hamburger"></span></li>
         <li class = "dropdownelement"> <span class="glyphicon glyphicon-user"></span></li>
         <li class = "dropdownelement"> <span class="glyphicon glyphicon-bookmark"></span></li>
         <li class = "dropdownelement"> <span class="glyphicon glyphicon-book"></span></li>
@@ -39,25 +40,40 @@
         <li class = "dropdownelement"> <span class="glyphicon glyphicon-list-alt"></span></li>
     </ul>
 
+
+
     <div id ="homepageheadercontainer" >
-        <h1 style = "margin:0; padding:40px 0px 25px 100px;font-family: 'Raleway'">GEACINTOV LABORATORY</h1>
-        <h4 style = "margin:0; padding:10px 0px 25px 0px;text-align:center;font-family: 'Anaheim'"">DNA DAMAGE AND REPAIR</h4>    
-    </div>
 
+        <div id = "headertitle">THE GEACINTOV LABORATORY </div>
+                <h4 id = "headerdescription" >DNA Damage & Repair</h4> 
+        </div>
 
+        <div class = "row" style = "min-width:500px;max-width:1000px;padding:25px 75px 25px 75px;margin:auto;text-align: center" >
+            <div class ="col-md-6">
+                <h2 style = "font-family: 'Roboto';color:#e57373;height:50px">
+                    MAIN INTERESTS
+                </h2>
+                <div style = "font-family: 'Anaheim'; font-size:15px;padding-bottom: 5px">
+                    The interests of the laboratory are on  DNA damage caused by environmental polynuclear aromatic cancer-causing contaminants and endogenous free radical intermediates that are overproduced in  humans at sites of inflammation.   
+                </div>
+            </div>
+            <div class ="col-md-6">
+                <h2 style = "font-family: 'Roboto';color:#e57373;height:50px">
+                    FOCUS
+                </h2>
+                <div style = "font-family: 'Anaheim'; font-size:15px;padding-bottom: 50px" >
+                    The focus of our studies is on mechanisms of formation of DNA lesions, their stereochemical and structural properties, and their  repair by the well known multi-tasking cellular defense mechanism called nucleotide excision repair.
+                </div>
+            </div>
+        </div>
 
-
-    <div>
-
-        <div id ="homepagegifcontainer" class = "panel panel-default">
+        <div id ="homepagegifcontainer">
             <figure class="figure">
-                    <img style = "height:400px;width:440px;" src="./images/Nucleosome.gif" class="figure-img img-fluid rounded" alt="Polynuclear aromatic hydrocarbon metabolite lesions (in red) embedded in DNA in a nucleosome gif."> 
+                    <img style = "height:380px;width:400px;" src="./images/Nucleosome.gif" class="figure-img img-fluid rounded" alt="Polynuclear aromatic hydrocarbon metabolite lesions (in red) embedded in DNA in a nucleosome gif."> 
                     <figcaption style = "font-size:11px;"  class="figure-caption">   A polynuclear aromatic hydrocarbon metabolite lesions (in red) embedded in DNA in a nucleosome, the fundamental building block of chromatin. 
                     (Courtesy: Y. Cai and S. Broyde)</figcaption>
             </figure>
         </div>
-    </div>
-
 
 
 </body>

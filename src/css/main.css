@@ -1,10 +1,18 @@
-#dropdownmenu{
+
+html { height: 100%; }
+body { 
+    min-height: 100%;  
+    padding:10px 30px 0px 30px;
+}
+#sidebar{
 	width:45px;
-	height:100vh;
 	background-color:#424242;
 	padding:0px;
-	float:left;
-
+	position:fixed;
+    height:90vh;
+    margin:3vh 0px 0px 10px;
+    z-index:100;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .dropdownelement{
 	text-decoration:none;
@@ -14,34 +22,56 @@
 	padding:13px;
 	height:50px;
 }
+#topmenu{
+
+}
+.menuitem{
+
+}
+
+
+
+#homepageheadercontainer{
+    padding:75px 0px 20px 0px;
+    background-color: rgba(0,0,0,.8);
+    min-width:481px;
+}
+#headertitle{
+    font-size:40px;
+    font-family: 'Raleway';
+    color:white;
+    text-align: center;
+    margin-bottom:15px;
+}
+#headerdescription{
+    font-family: 'Anaheim';
+    color: #ffab91;
+    width:180px;
+    padding:5px;
+    margin:auto;
+}
+
+
+
+
+
+#homepagegifcontainer{
+	width:415px;
+    height:440px;
+    margin:auto;
+    padding:5px;
+    background-color: white;
+    border-style: solid;
+    border-width:thin;
+    border-radius:6px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
 
 #homepagegifcaption{
-    background-color: #000;
     bottom: 0;
     color: #fff;
     left: 0;
     opacity: 0.5;
     position: absolute;
-    width: 500px;
 
 }
-
-
-#homepageheadercontainer{
-    margin-left:30px;
-    padding:5px;
-    font-size:19px;
-    height:200px;
-}
-
-
-
-#homepagegifcontainer{
-	width:450px;
-    height:470px;
-    margin-left:50px;
-    padding:5px;
-    display:inline-block;
-    vertical-align: top;
-}
-
