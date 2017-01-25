@@ -1,10 +1,10 @@
 # Geacintov-Lab-Site
 
-Fully revamp and updated Geacintov Laboratory Website
+Fully revamp and updated Geacintov Laboratory Website <br />
 
-address: https://www.nyu.edu/projects/geacintov/
-css: hover.css
-js: awesomefont, bootstrap v4 and jquery.
+address: https://www.nyu.edu/projects/geacintov/ <br />
+css: hover.css <br />
+js: awesomefont, bootstrap v4 and jquery. <br />
 directory: <br />
 
 index.html____People.html <br />
