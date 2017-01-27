@@ -3,7 +3,7 @@ html { height: 100%; }
 body { 
     min-height: 100%;  
     padding:10px 30px 0px 30px;
-    min-width:770px;
+    min-width: 640px;
 }
 #sidebar{
 	width:45px;
@@ -41,6 +41,7 @@ body {
     background-color: rgba(0,0,0,0.1);
     min-width:450px;
 }
+
 #headertitle{
     font-size:35px;
     font-family: 'Raleway';
@@ -86,14 +87,20 @@ body {
 
 }
 
-
-#overviewcontainer{
-    background-color: rgba(0,0,0,0.6);
-    min-width:400px;
-    padding:20px 25px 30px 25px;
+.subsectionname{
+    color: #ffab91;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size:27px;
+    padding:20px 0px 25px 0px;
 }
 
 
+
+#overviewcontainer{
+    background-color: rgba(0,0,0,0.6);
+    padding:20px 0px 30px 0px;
+}
 .overviewmain1{
     color:#e0e0e0;
     font-size:16px;
@@ -102,6 +109,37 @@ body {
     text-align: center;
     background-color: rgba(255,255,255,.1);
     font-family: 'Anaheim';
+}
+
+
+#bookcontainer{
+    background-color: rgba(0,0,0,0.6);
+    padding:20px 50px 30px 100px; 
+}
+.bookmodalbutton{
+    display:inline-block;
+    font-size: 16px;
+    font-family: 'Dosis';
+    vertical-align: middle;
+    user-select:none;
+    padding:10px 35px 10px 35px;
+    border: 1px grey solid;
+    background-color: #eceff1;
+    cursor:pointer;
+    opacity:.75;
+    color:grey;
+    margin-left:20px;
+    box-shadow:5px 5px 12px -4px rgba(0,0,0,0.56);
+}
+#booktitle{
+    font-family: 'Raleway';
+    color: #ff7043;
+    font-size: 15px;
+    height:30px;
+}
+
+#publicationscontainer{
+    padding:20px 90px 30px 90px;
 }
 
 

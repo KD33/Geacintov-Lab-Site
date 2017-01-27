@@ -23,4 +23,5 @@ $( document ).ready(function() {
 	    $(this).carousel('pause');
 	});
 
+
 });
