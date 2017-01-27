@@ -1,29 +1,39 @@
 
-html { height: 100%; }
+html { height: 100%; 
+}
 body { 
     min-height: 100%;  
     padding:10px 30px 0px 30px;
     min-width: 640px;
 }
+a { color: inherit; } 
+
+
+
 #sidebar{
-	width:45px;
-	background-color:#afa89c;
+    width:45px;
+    background-color:#afa89c;
     border-radius: 5px;
     opacity:.85;
-	padding:0px;
+    padding:0px;
     position:fixed;
-    height:300px;
+    height:330px;
     margin:3vh 0px 0px 20px;
     z-index:100;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .dropdownelement{
-	text-decoration:none;
-	list-style-type: none;
-	color:white;
-	font-size:18px;
-	padding:13px;
-	height:60px;
+    text-decoration:none;
+    cursor:pointer;
+    list-style-type: none;
+    color:white;
+    font-size:18px;
+    padding:13px;
+    height:60px;
+
+}
+.dropdownelement:hover{
+    background-color: rgba(0,0,0,.2);
 }
 #dropdownelementmain{
     padding:13px 13px 80px 13px;
@@ -34,6 +44,7 @@ body {
     color:white;
     font-size:18px;
     height:50px;
+    cursor:pointer;
 }
 
 #homepageheadercontainer{
@@ -64,14 +75,14 @@ body {
 #description{
     font-family: 'Anaheim'; 
     font-size:15px;
-    width:40vw;
+    width:47vw;
     padding-right:0px;
     color:#7a7a7a;
 }
 
 
 #homepagegifcontainer{
-	width:415px;
+    width:415px;
     height:440px;
     padding:5px;
     float:right;
@@ -112,10 +123,6 @@ body {
 }
 
 
-#bookcontainer{
-    background-color: rgba(0,0,0,0.6);
-    padding:20px 50px 30px 100px; 
-}
 .bookmodalbutton{
     display:inline-block;
     font-size: 16px;
@@ -123,13 +130,12 @@ body {
     vertical-align: middle;
     user-select:none;
     padding:10px 35px 10px 35px;
-    border: 1px grey solid;
-    background-color: #eceff1;
+    border: 2px #3e3e3f solid;
+    background-color: transparent;
+    border-radius: 0px;
     cursor:pointer;
-    opacity:.75;
-    color:grey;
-    margin-left:20px;
-    box-shadow:5px 5px 12px -4px rgba(0,0,0,0.56);
+    color:#3e3e3f;
+    margin-left:35px;
 }
 #booktitle{
     font-family: 'Raleway';
@@ -139,8 +145,15 @@ body {
 }
 
 #publicationscontainer{
-    padding:20px 90px 30px 90px;
+    padding:20px 90px 100px 90px;
 }
+
+
+
+
+
+
+
 
 
 

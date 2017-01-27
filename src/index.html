@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Geacintov Laboratory Homepage</title>
     
-
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+   
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     
     <script src="https://use.fontawesome.com/359f83a113.js"></script>
@@ -23,7 +22,7 @@
     <link href="https://fonts.googleapis.com/css?family=Anaheim|Dosis|Catamaran|Raleway:300|Roboto" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/geacinov_lab_site.css">
-
+    <link rel="stylesheet" href="./css/animate.css">
 
 </head>
 <body>
@@ -32,28 +31,31 @@
         <li id= "dropdownelementmain" >
             <i class="fa fa-bars"></i>
         </li>
-        <li class = "dropdownelement"> 
-            <a data-toggle = "tooltip" title = "People/Alumni"><i class="fa fa-users"></i></a>
-        </li>
-        <li class = "dropdownelement"> 
-            <a data-toggle = "tooltip" title = "Publications/Books"><i class="fa fa-book"></i></a>
-        </li>
+        <a data-toggle = "tooltip" title = "People/Alumni" href="./html/geacinov-site.people.alumni.html"> <li class = "dropdownelement"> 
+            <i class="fa fa-users"></i>
+        </li></a>
+        
+        <a data-toggle = "tooltip" title = "Publications/Books" href="./html/geacinov-site.books.publications.html">
+        	<li class = "dropdownelement"> 
+            <i class="fa fa-book"></i>
+        </li></a>
 
-        <li class = "dropdownelement"> 
-            <a data-toggle = "tooltip" title = "Instrumentation"><i class="fa fa-plug"></i></a>
-        </li>
+        <a data-toggle = "tooltip" title = "Instrumentation">
+        	<li class = "dropdownelement"> 
+            <i class="fa fa-plug"></i>
+        </li></a>
     </ul>
 
 
 
         <div id ="homepageheadercontainer" >
-            <div id = "headertitle">THE GEACINTOV LABORATORY            
+            <div class = "animated slideInDown" id = "headertitle">THE GEACINTOV LABORATORY            
                 <span id = "headerdescription" >
                 DNA Damage & Repair
                 </span> 
              </div>
              <hr id = "headerhr"/>
-                <div id = "description">
+                <div class = "animated fadeIn" id = "description">
                     The interests of the laboratory are on  DNA damage caused by environmental polynuclear aromatic cancer-causing contaminants and endogenous free radical intermediates that are overproduced in  humans at sites of inflammation. 
                     The focus of our studies is on mechanisms of formation of DNA lesions, their stereochemical and structural properties, and their  repair by the well known multi-tasking cellular defense mechanism called nucleotide excision repair.
             </div>
@@ -63,6 +65,7 @@
 
 
         <div id = "overviewcontainer" >
+            <div class = "animated fadeIn" >
             <div class = "subsectionname">Research Overview</div>
 
 
@@ -124,6 +127,7 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
+            </div>
             </div>
         </div>
 

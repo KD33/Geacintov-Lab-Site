@@ -1,4 +1,48 @@
+var year2010 = [
+    ["",
+  "Rechkoblit O, Kolbanovskiy A, Malinina L, Geacintov NE, Broyde S, Patel DJ. ",
+  "Mechanism of error-free and semitargeted mutagenic bypass of an aromatic amine  lesion by Y-family polymerase Dpo4. Nature Struct Mol Biol. 2010 (3):379-88.  PubMed PMID: 20154704."],
 
+  ["",
+  "Dreij K, Rhrissorrakrai K, Gunsalus KC, Geacintov NE, Scicchitano DA.  Benzo",
+  "[a]pyrene diol epoxide stimulates an inflammatory response in normal human lung fibroblasts through a p53 and JNK mediated pathway. Carcinogenesis. 2010 (6):1149-57. PMID: 20382639."],
+
+    ["",
+  "Shao J, Geacintov NE, Shafirovich V.",
+  "Oxidative modification of guanine bases initiated by oxyl radicals derived from photolysis of azo compounds. J Phys Chem B. 2010, 114(19):6685-92. PMID: 20415485."],
+
+    ["",
+  "Yun BH, Dedon PC, Geacintov NE, Shafirovich V. ",
+  "One-electron oxidation of a pyrenyl photosensitizer covalently attached to DNA and competition between its further oxidation and DNA hole injection. Photochem Photobiol. 2010  ;86(3):563-70. PMID: 20408978."],
+
+    ["",
+  "Shao J, Geacintov NE, Shafirovich V.",
+  "Oxidation of  8-oxo-7,8-dihydro-2'-deoxyguanosine by oxyl radicals produced by photolysis of  azo compounds. Chem Res Toxicol. 2010, 17;23(5):933-8. PMID: 20408566."],
+
+    ["",
+  "Cai Y, Kropachev K, Xu R, Tang Y, Kolbanovskii M, Kolbanovskii A, Amin S, Patel DJ, Broyde S, Geacintov NE. ",
+  "Distant neighbor base sequence context effects in human nucleotide excision repair of a benzo[a]pyrene-derived DNA lesion. J Mol Biol. 2010, 399(3):397-409.  PMID: 20399214."],
+
+    ["http://www.ncbi.nlm.nih.gov/pubmed/21090780",
+  "Zheng H, Cai Y, Ding S, Tang Y, Kropachev K, Zhou Y, Wang L, Wang S, Geacintov NE, Zhang Y, Broyde S.  ",
+  "Base Flipping Free  Energy Profiles for Damaged and Undamaged DNA. Chem  Res Toxicol23, 1868–1870 PMID: 21090780"],
+
+    ["http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&amp;cmd=Retrieve&amp;dopt=AbstractPlus&amp;list_uids=18931375&amp;itool=pubmed_DocSum",
+  "Cai Y, Wang L, Ding S, Schwaid A, Geacintov NE, Broyde  S.",
+  "A bulky DNA lesion derived from a highly potent polycyclic aromatic tumorogen stabilizes nucleosome core particle  structure.Biochemistry 2010, 49(46):9943-5. PMID:  20964331."],
+
+    ["http://www.ncbi.nlm.nih.gov/pubmed/20871811",
+  "Cai Y, Patel DJ, Broyde S, Geacintov NE.",
+  "Base sequence context effects on nucleotide excision repair. J Nucleic  Acids.2010.  PMID: 20871811"],
+
+    ["",
+  "Jia L, Geacintov NE, Broyde S.",
+  "The N-clasp of human DNA polymerase kappa promotes blockage or error-free  bypass of   adenine- or guanine-benzo[a]pyrenyl lesions. Nucleic Acids Res. 36(20):6571-84 (2008). PMID: 18931375"],
+    ["",
+  "Margolin Y, Shafirovich V,  Geacintov NE, DeMott MS, Dedon PC.",
+  " DNA  sequence context as a determinant of the equantity and chemistry of guanine  oxidation produced by hydroxyl radicals and one-electron produced by hydroxyl  radicals and one-electron oxidants.   J Biol Chem. 283(51):35569-78 (2008).  PMID: 18948263."],
+
+]
 var year2011 = [
   ["",
   "Resistance of bulky DNA lesions to nucleotide excision repair can result from extensive aromatic lesion-base stacking interactions.  Nucleic Acids Res. 2011, 39(20): 8752-64",
@@ -55,16 +99,17 @@ var Publications = React.createClass({
 
   handleData: function() {
     var list = [""];
+    if(this.state.year == 2015)
+      list = [""];
     if(this.state.year == 2011)
       list = year2011;
-    if(this.state.year == 2012)
-      list = [""];
+    if(this.state.year == 2010)
+      list = year2010;
     if(this.state.year == 2013)
       list = [""];
     if(this.state.year == 2014)
       list = [""];
-    if(this.state.year == 2015)
-      list = [""];
+
 
     var authorStyle = {
       fontSize:"13px",
@@ -87,21 +132,57 @@ var Publications = React.createClass({
 
   ,
   render: function() {
+    let radiocontainer = {
+
+    }
     return (
         <div>
-              <div className="form-check form-check-inline">
-                <label className="form-check-label">
+              <div style = {radiocontainer}>
+              <div className="form-check form-check-inline"><label className="form-check-label">
                   <input 
                     className="form-check-input" 
                     type="radio" 
                     name="inlineRadioOptions" 
                     classID="inlineRadio1" 
                     value={2011} 
+                    onClick= {this.handleYearChange}
                     /> 
-                    2011
-                </label>
+                    <h6>2011</h6>
+                </label></div>
+              <div className="form-check form-check-inline"><label className="form-check-label">
+                  <input 
+                    className="form-check-input" 
+                    type="radio" 
+                    name="inlineRadioOptions" 
+                    classID="inlineRadio1" 
+                    value={2010} 
+                    onClick= {this.handleYearChange}
+                    /> 
+                    <h6>2010</h6>
+                </label></div>
+              <div className="form-check form-check-inline"><label className="form-check-label">
+                  <input 
+                    className="form-check-input" 
+                    type="radio" 
+                    name="inlineRadioOptions" 
+                    classID="inlineRadio1" 
+                    value={2009} 
+                    onClick= {this.handleYearChange}
+                    /> 
+                    <h6>2009</h6>
+                </label></div>
+              <div className="form-check form-check-inline"><label className="form-check-label">
+                  <input 
+                    className="form-check-input" 
+                    type="radio" 
+                    name="inlineRadioOptions" 
+                    classID="inlineRadio1" 
+                    value={2008} 
+                    onClick= {this.handleYearChange}
+                    /> 
+                    <h6>2008</h6>
+                </label></div>
               </div>
-
 
               <form role="form">
                   <div className="form-group">
