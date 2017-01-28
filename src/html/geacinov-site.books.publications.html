@@ -9,12 +9,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     
+
+
+
      <script src = "../js/Reactjs/react.js"  type="text/javascript"></script>  
      <script src = "../js/Reactjs/react-dom.js"  type="text/javascript"></script> 
      <script src = "../js/browser.min.js"  type="text/javascript"></script>   
     <script src="https://use.fontawesome.com/359f83a113.js"></script>
-
-
+      <script src = "../js/bootstrap-list-filter.min.js"  type="text/javascript"></script>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
@@ -28,7 +30,7 @@
 
     <ul id = "sidebar">
 
-        <li id= "dropdownelementmain" >
+        <li id= "dropdownelementburger" >
             <i class="fa fa-bars"></i>
         </li>
 
@@ -37,12 +39,12 @@
               <i class="fa fa-university"></i>
         </li></a>
 
-        <a data-toggle = "tooltip" title = "People/Alumni" href="./geacinov-site.people.alumni.html"> <li class = "dropdownelement"> 
-            <i class="fa fa-users"></i>
+        <a data-toggle = "tooltip" title = "People/Alumni" href="./geacinov-site.people.alumni.html"> <li class = "dropdownelement">
+        <i class="fa fa-users"></i>
         </li></a>
         
         <a data-toggle = "tooltip" title = "Publications/Books">
-            <li class = "dropdownelement"> 
+            <li class = "dropdownelementselected"> 
             <i class="fa fa-book"></i>
         </li></a>
 
@@ -84,7 +86,9 @@
         <div id = "publicationReactJS"></div>
       </div>
 
+      <script>$('#searchlist').btsListFilter('#searchinput', {itemChild: 'span'});</script>
 
+      
 
     <!--      Modal          -->
     <div class="modal fade" id="Preface" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -147,10 +151,12 @@
 
 
       <!-- scripts specific to html document -->
-      <script src = "../js/bootstrap-list-filter.min.js"  type="text/javascript"></script>
+
+
       <script src = "../js/PublicationsReactComponent.js"  type="text/babel"></script>
       <script src = "../js/geacinov_lab_site.js"  type="text/javascript"></script>
-      <script>$('#searchlist').btsListFilter('#searchinput', {itemChild: 'span'});</script>
+
+
 
 
 </body>

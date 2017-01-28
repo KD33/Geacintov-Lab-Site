@@ -35,7 +35,19 @@ a { color: inherit; }
 .dropdownelement:hover{
     background-color: rgba(0,0,0,.2);
 }
-#dropdownelementmain{
+.dropdownelementselected{
+    text-decoration:none;
+    cursor:pointer;
+    list-style-type: none;
+    color:white;
+    font-size:19px;
+    padding:13px;
+    height:60px;
+    background-color:;
+    background-color: rgba(225,225,225,.3);
+}
+
+#dropdownelementburger{
     padding:13px 13px 80px 13px;
     font-size:15px;
     padding-left:14px;
@@ -147,8 +159,6 @@ a { color: inherit; }
 #publicationscontainer{
     padding:20px 90px 100px 90px;
 }
-
-
 
 
 .peopleimagestyle{

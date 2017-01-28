@@ -143,7 +143,7 @@ var Publications = React.createClass({
                     className="form-check-input" 
                     type="radio" 
                     name="inlineRadioOptions" 
-                    classID="inlineRadio1" 
+                    id="inlineRadio1" 
                     value={2011} 
                     onClick= {this.handleYearChange}
                     /> 
@@ -154,7 +154,7 @@ var Publications = React.createClass({
                     className="form-check-input" 
                     type="radio" 
                     name="inlineRadioOptions" 
-                    classID="inlineRadio1" 
+                    id="inlineRadio1" 
                     value={2010} 
                     onClick= {this.handleYearChange}
                     /> 
@@ -165,7 +165,7 @@ var Publications = React.createClass({
                     className="form-check-input" 
                     type="radio" 
                     name="inlineRadioOptions" 
-                    classID="inlineRadio1" 
+                    id="inlineRadio1" 
                     value={2009} 
                     onClick= {this.handleYearChange}
                     /> 
@@ -176,7 +176,7 @@ var Publications = React.createClass({
                     className="form-check-input" 
                     type="radio" 
                     name="inlineRadioOptions" 
-                    classID="inlineRadio1" 
+                    id="inlineRadio1" 
                     value={2008} 
                     onClick= {this.handleYearChange}
                     /> 
@@ -186,13 +186,12 @@ var Publications = React.createClass({
 
               <form role="form">
                   <div className="form-group">
-                      <input classID="searchinput" className="form-control" type="search" placeholder="Search..." />
+  
                   </div>
                   <div id="searchlist" className="list-group">
                       {this.handleData()}
                   </div>
               </form>
-
          </div>
     );
   }
