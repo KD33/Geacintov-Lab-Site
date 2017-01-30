@@ -8,15 +8,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    
-
-
 
      <script src = "../js/Reactjs/react.js"  type="text/javascript"></script>  
      <script src = "../js/Reactjs/react-dom.js"  type="text/javascript"></script> 
      <script src = "../js/browser.min.js"  type="text/javascript"></script>   
     <script src="https://use.fontawesome.com/359f83a113.js"></script>
-      <script src = "../js/bootstrap-list-filter.min.js"  type="text/javascript"></script>
+
+
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
@@ -39,8 +37,8 @@
               <i class="fa fa-university"></i>
         </li></a>
 
-        <a data-toggle = "tooltip" title = "People/Alumni" href="./geacinov-site.people.alumni.html"> <li class = "dropdownelement">
-        <i class="fa fa-users"></i>
+        <a data-toggle = "tooltip" title = "People/Alumni" href="./geacinov-site.people.alumni.html"> <li class = "dropdownelement"> 
+            <i class="fa fa-users"></i>
         </li></a>
         
         <a data-toggle = "tooltip" title = "Publications/Books">
@@ -83,16 +81,12 @@
 
       <div class = "animated fadeInUp" id = "publicationscontainer">
         <div class = "subsectionname">Publications</div>
-        <div id = "publicationReactJS"></div>
+            <div id = "publicationReactJS"></div>
       </div>
-
-      <script>$('#searchlist').btsListFilter('#searchinput', {itemChild: 'span'});</script>
-
-      
 
     <!--      Modal          -->
     <div class="modal fade" id="Preface" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
+      <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLongTitle">Preface</h5>
@@ -100,47 +94,47 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body">
-    The relationships between the chemical, structural, and biological aspects of DNA
-    damage have long been parallel and overlapping research domains. More recently,
-    interest has intensified in relating the structural characteristics of DNA damage
-    with its ultimate manifestation – the development of human disease. New opportunities
-    for moving the field forward and for gaining a better understanding of
-    the molecular basis of diseases associated with DNA damage are emerging. Rapid
-    advances in instrumentation and computing power are yielding new structural
-    information on macromolecular biological systems and assemblies through highresolution
-    structural studies at the molecular level. The subject of this book, the
-    chemical biology of DNA damage, offers the opportunity for considering DNA
-    damage from the molecular perspective with a focus on both the chemical elements
-    at the level of damage generation and the biological properties of the various
-    types of damage from the structure–function points of view.
-    The topics covered in this book should be of interest to researchers who wish
-    to gain an overview of the frontier areas of the field, as well as to students who
-    wish to learn or deepen their knowledge in areas that touch on the molecular
-    origins of disease via DNA damage. Another objective of this book is to foster
-    communication between the chemical and biological communities of researchers
-    by highlighting the molecular origins that unite these topics at a fundamental
-    level. The time is ripe for promoting such a fundamental understanding since new
-    information on the biological impact of chemically defined lesions is now becoming
-    available at an increasing pace.
-    This book is divided into two parts. The focus of Part One is on the chemical
-    aspects of DNA damage, while the emphasis of Part Two is on the structural and
-    functional relationships of DNA lesions, and their processing by the cellular
-    machineries of repair, replication, and transcription. Chapter 1 in Part One is
-    intended as a brief overview of the vast field of DNA damage, and introduces the
-    reader to the relationships between the chemical and structural aspects of DNA
-    damage, and some of the known biological endpoints and correlations with human
-    disease. Ample references are provided with an emphasis on authoritative, recently
-    published reviews to guide the interested reader.
-    The two parts of this book, the chemical and the biological components, spring
-    from the same tree and feed from the same roots – the chemical and structural
-    features of DNA lesions that influence the biological consequences by alterations
-    of the normal structural features of the DNA molecule. Understanding phenomena
-    at the intersections of chemical and biological disciplines is at the frontier of
-    our current knowledge. It is our belief that a deeper understanding of the connections
-    between these disciplines will lead to more effective strategies for preventing
-    disease and to advanced therapeutic approaches for treating diseases such as
-    human cancers.
+          <div class="modal-body" style = "padding:30px;">
+              The relationships between the chemical, structural, and biological aspects of DNA
+              damage have long been parallel and overlapping research domains. More recently,
+              interest has intensified in relating the structural characteristics of DNA damage
+              with its ultimate manifestation – the development of human disease. New opportunities
+              for moving the field forward and for gaining a better understanding of
+              the molecular basis of diseases associated with DNA damage are emerging. Rapid
+              advances in instrumentation and computing power are yielding new structural
+              information on macromolecular biological systems and assemblies through highresolution
+              structural studies at the molecular level. The subject of this book, the
+              chemical biology of DNA damage, offers the opportunity for considering DNA
+              damage from the molecular perspective with a focus on both the chemical elements
+              at the level of damage generation and the biological properties of the various
+              types of damage from the structure–function points of view.
+              The topics covered in this book should be of interest to researchers who wish
+              to gain an overview of the frontier areas of the field, as well as to students who
+              wish to learn or deepen their knowledge in areas that touch on the molecular
+              origins of disease via DNA damage. Another objective of this book is to foster
+              communication between the chemical and biological communities of researchers
+              by highlighting the molecular origins that unite these topics at a fundamental
+              level. The time is ripe for promoting such a fundamental understanding since new
+              information on the biological impact of chemically defined lesions is now becoming
+              available at an increasing pace.
+              This book is divided into two parts. The focus of Part One is on the chemical
+              aspects of DNA damage, while the emphasis of Part Two is on the structural and
+              functional relationships of DNA lesions, and their processing by the cellular
+              machineries of repair, replication, and transcription. Chapter 1 in Part One is
+              intended as a brief overview of the vast field of DNA damage, and introduces the
+              reader to the relationships between the chemical and structural aspects of DNA
+              damage, and some of the known biological endpoints and correlations with human
+              disease. Ample references are provided with an emphasis on authoritative, recently
+              published reviews to guide the interested reader.
+              The two parts of this book, the chemical and the biological components, spring
+              from the same tree and feed from the same roots – the chemical and structural
+              features of DNA lesions that influence the biological consequences by alterations
+              of the normal structural features of the DNA molecule. Understanding phenomena
+              at the intersections of chemical and biological disciplines is at the frontier of
+              our current knowledge. It is our belief that a deeper understanding of the connections
+              between these disciplines will lead to more effective strategies for preventing
+              disease and to advanced therapeutic approaches for treating diseases such as
+              human cancers.
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -149,15 +143,10 @@
       </div>
     </div>
 
-
       <!-- scripts specific to html document -->
 
-
       <script src = "../js/PublicationsReactComponent.js"  type="text/babel"></script>
-      <script src = "../js/geacinov_lab_site.js"  type="text/javascript"></script>
-
-
-
-
+      <script src = "../js/geacinovLabSite.js"  type="text/javascript"></script>
+    
 </body>
 </html>

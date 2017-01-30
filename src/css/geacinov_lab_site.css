@@ -18,7 +18,7 @@ a { color: inherit; }
     padding:0px;
     position:fixed;
     height:330px;
-    margin:3vh 0px 0px 20px;
+    margin:6vh 0px 0px 20px;
     z-index:100;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
@@ -43,7 +43,6 @@ a { color: inherit; }
     font-size:19px;
     padding:13px;
     height:60px;
-    background-color:;
     background-color: rgba(225,225,225,.3);
 }
 
@@ -60,7 +59,7 @@ a { color: inherit; }
 }
 
 #homepageheadercontainer{
-    padding:140px 0px 140px 120px;
+    padding:130px 0px 130px 120px;
     background-color: rgba(0,0,0,0.1);
     min-width:450px;
 }
@@ -86,7 +85,7 @@ a { color: inherit; }
 }
 #description{
     font-family: 'Anaheim'; 
-    font-size:15px;
+    font-size:16px;
     width:47vw;
     padding-right:0px;
     color:#7a7a7a;
@@ -126,11 +125,11 @@ a { color: inherit; }
 }
 .overviewmain1{
     color:#e0e0e0;
-    font-size:16px;
+    font-size:18px;
     border: 2px solid rgba(255,255,255,.25);
     padding:14px 19px 20px 19px;
     text-align: center;
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.15);
     font-family: 'Anaheim';
 }
 
