@@ -4,11 +4,11 @@ $( document ).ready(function() {
 		  if ($('.dropdownelement').is(":visible")) {
 			  	$('.dropdownelement').hide();
 			  	$('.dropdownelementselected').hide();
-			  	$('#sidebar').css({"height":"50px"});
+			  	$('#sidebar').css({"height":"50px","transition":"height 500ms ease-in-out"});
 		  } else {
-			  	$('.dropdownelementselected').show();
-			    $('.dropdownelement').show();	
-			    $('#sidebar').css({"height":"270px"});
+			    $('#sidebar').css({"height":"270px","transition":"height 500ms ease-in-out"});
+            $('.dropdownelementselected').show(500);
+             $('.dropdownelement').show(500);   
 	  		}
 	});
 
