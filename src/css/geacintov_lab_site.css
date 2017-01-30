@@ -1,10 +1,11 @@
 
 html { height: 100%; 
+  box-sizing: border-box;
 }
 body { 
     min-height: 100%;  
     padding:10px 30px 0px 30px;
-    min-width: 640px;
+    min-width:545px;
 }
 a { color: inherit; } 
 
@@ -17,7 +18,7 @@ a { color: inherit; }
     opacity:.85;
     padding:0px;
     position:fixed;
-    height:330px;
+    height:270px;
     margin:6vh 0px 0px 20px;
     z-index:100;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -47,28 +48,33 @@ a { color: inherit; }
 }
 
 #dropdownelementburger{
-    padding:13px 13px 80px 13px;
+    padding:13px;
+    margin-bottom: 40px;
     font-size:15px;
     padding-left:14px;
     text-decoration:none;
     list-style-type: none;
     color:white;
     font-size:18px;
-    height:50px;
     cursor:pointer;
 }
 
 #homepageheadercontainer{
-    padding:130px 0px 130px 120px;
-    background-color: rgba(0,0,0,0.1);
-    min-width:450px;
+    padding:130px 0px 110px 0px;
+    background-image: url('../images/HeaderBackground.png');
+    background-size: 100% 100%;
+}
+#headercontainer{
+    padding:130px 0px 120px 0px;
+    background-color:rgba(0,0,0,.1);
+    min-width:450px;  
 }
 
 #headertitle{
     font-size:35px;
     font-family: 'Raleway';
     margin-bottom:15px;
-    width:75vw;
+    padding-left: 120px;
 }
 #headerdescription{
     font-family: 'Raleway';
@@ -81,14 +87,14 @@ a { color: inherit; }
     height:2px;
     width:85px;
     background-color:black;
-    margin:5px 0px 30px 0px;
+    margin:5px 0px 30px 120px;
 }
 #description{
     font-family: 'Anaheim'; 
     font-size:16px;
-    width:47vw;
     padding-right:0px;
     color:#7a7a7a;
+    padding-left: 120px;
 }
 
 
@@ -128,7 +134,6 @@ a { color: inherit; }
     font-size:18px;
     border: 2px solid rgba(255,255,255,.25);
     padding:14px 19px 20px 19px;
-    text-align: center;
     background-color: rgba(255,255,255,.15);
     font-family: 'Anaheim';
 }
@@ -147,6 +152,7 @@ a { color: inherit; }
     cursor:pointer;
     color:#3e3e3f;
     margin-left:35px;
+    margin-top: 30px;
 }
 #booktitle{
     font-family: 'Raleway';
