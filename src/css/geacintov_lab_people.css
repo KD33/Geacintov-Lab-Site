@@ -1,0 +1,131 @@
+
+html { height: 100%; 
+  box-sizing: border-box;
+}
+
+body { 
+    min-height: 100%;  
+    padding:5px 5px 0px 5px;
+    min-width:400px;
+}
+
+a { color: inherit; } 
+
+/*              */
+
+
+
+.menucontainer{
+    width:45px;
+    background-color:#afa89c;
+    border-radius: 5px;
+    opacity:.85;
+    padding:0px;
+    position:fixed;
+    top:20px;
+    height:270px;
+    margin:6vh 0px 0px 20px;
+    z-index:100;
+    box-shadow: 1px 6px 6px rgba(0,0,0,0.16), 1px 6px 6px rgba(0,0,0,0.23);
+}
+.dropdownelement{
+    text-decoration:none;
+    cursor:pointer;
+    list-style-type: none;
+    color:white;
+    font-size:18px;
+    padding:13px;
+    height:60px;
+
+}
+.dropdownelement:hover{
+    background-color: rgba(0,0,0,.2);
+}
+.dropdownelementselected{
+    text-decoration:none;
+    list-style-type: none;
+    color:white;
+    font-size:19px;
+    padding:13px;
+    height:60px;
+    background-color: rgba(225,225,225,.3);
+}
+
+.dropdownelementburger{
+    padding:13px;
+    margin-bottom: 40px;
+    font-size:15px;
+    padding-left:14px;
+    text-decoration:none;
+    list-style-type: none;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+}
+
+#headercontainer{
+    padding: 120px 0px 90px 0px;
+    background-color:rgba(230, 230, 230,.9);  
+}
+
+#headertitle{
+    font-size:52px;
+    font-family: 'Raleway';
+    padding-left: 90px;
+    padding-right:18.5vw;
+    margin:-30px 0px 0px 0px;
+}
+#headerdescription{
+    font-family: 'Raleway';
+    color: #ff7043;
+    padding:5px;
+    font-size: 23px;
+    white-space: nowrap;
+}
+#headerhr{
+    height:2px;
+    width:55px;
+    background-color:black;
+    margin:5px 0px 30px 100px;
+}
+#description{
+    font-family: 'Anaheim'; 
+    font-size:16px;
+    color:#7a7a7a;
+    padding-left: 100px;
+}
+
+
+.subsectionname{
+    color: #ffab91;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size:27px;
+    padding:20px 0px 25px 0px;
+}
+
+
+/*      PEOPLE/STAFF        */
+
+.peopleimagestyle{
+    width:290px;
+    height:200px;
+}
+.peopleimagecontainer{
+    display:inline-block;
+    margin:20px;
+
+    border: 2px solid rgba(0,0,0,.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+

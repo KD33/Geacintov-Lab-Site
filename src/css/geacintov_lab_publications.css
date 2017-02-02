@@ -5,7 +5,7 @@ html { height: 100%;
 
 body { 
     min-height: 100%;  
-    padding:7px 7px 0px 7px;
+    padding:5px 8px 0px 8px;
     min-width:400px;
 }
 
@@ -23,7 +23,7 @@ a { color: inherit; }
     padding:0px;
     position:fixed;
     top:20px;
-    height:270px;
+    height:268px;
     margin:6vh 0px 0px 20px;
     z-index:100;
     box-shadow: 1px 6px 6px rgba(0,0,0,0.16), 1px 6px 6px rgba(0,0,0,0.23);
@@ -66,78 +66,29 @@ a { color: inherit; }
 
 /*      HOMEPAGE        */
 
-.fullmenucontainer{
-    padding:7px 0px 5px 31vw;
-    background-color: rgba(0, 0, 0,.8);
-    margin:0;
-}
-.fullmenuitem{
-    display:inline-block;
-    text-align: center;
-    height:55px;
-    width:55px;
-    font-size: 20px;
-    color:white;
-    text-decoration:none;
-    list-style-type: none;
-    border-radius: 75px;
-    padding-top: 12px;
-    border: 2px solid rgba(255,255,255,.25);
-    background-color: rgba(255, 138, 101,.5);
-    cursor:pointer;
-}
-.filler{
-    display:inline-block;
-    width:12vw;
-}
-.fullmenuitemselected{
-    display:inline-block;
-    text-align: center;
-    height:55px;
-    width:55px;
-    font-size: 20px;
-    border-radius: 75px;
-    padding-top: 9px;
-    padding-left:1px;
-    color:white;
-    text-decoration:none;
-    list-style-type: none;
-    border: 2px solid rgba(255,255,255,.25);
-    background-color: rgba(0, 0, 0,.4);
-}
-.fullmenuitem:hover{
-    background-color: rgba(0,0,0,.3);
-}
-
-
-
-#homepageheadercontainer{
-    padding:105px 0px 85px 0px;
-    background-image: url('../images/HeaderBackground.png');
-    background-size: 100% 100%;
+#headercontainer{
+    padding:120px 0px 60px 0px;
+    background-color:rgba(230, 230, 230,.9);  
 }
 
 #headertitle{
     font-size:52px;
     font-family: 'Raleway';
     padding-left: 90px;
-    padding-right:18.5vw;
-    margin:0;
-    margin-top: -40px;
+    margin:-30px 0px 0px 0px;
 }
 #headerdescription{
     font-family: 'Raleway';
     color: #ff7043;
     padding:5px;
     font-size: 23px;
-    margin-top: -30px;
     white-space: nowrap;
 }
 #headerhr{
     height:2px;
     width:55px;
     background-color:black;
-    margin:5px 0px 45px 100px;
+    margin:5px 0px 30px 100px;
 }
 #description{
     font-family: 'Anaheim'; 
@@ -146,24 +97,6 @@ a { color: inherit; }
     padding-left: 100px;
 }
 
-/*              */
-
-#homepagegifcontainer{
-    width:415px;
-    height:440px;
-    padding:5px;
-    float:right;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
-
-#homepagegifcaption{
-    bottom: 0;
-    color: #fff;
-    left: 0;
-    opacity: 0.5;
-    position: absolute;
-
-}
 
 .subsectionname{
     color: #ffab91;
@@ -174,29 +107,14 @@ a { color: inherit; }
 }
 
 
-#overviewcontainer{
-    background-color: #595050;
-    padding:20px 0px 30px 0px;
-}
-.overviewmain1{
-    color:#e0e0e0;
-    font-size:18px;
-    border: 2px solid rgba(255,255,255,.25);
-    padding:14px 19px 20px 19px;
-    background-color: rgba(255,255,255,.15);
-    font-family: 'Anaheim';
-}
-
 
 
 /*     PUBLICATIONS/BOOKS         */
 
 
 .bookmodalbutton{
-    display:inline-block;
     font-size: 16px;
     font-family: 'Dosis';
-    vertical-align: middle;
     user-select:none;
     padding:10px 35px 10px 35px;
     border: 2px #3e3e3f solid;
@@ -204,7 +122,7 @@ a { color: inherit; }
     border-radius: 0px;
     cursor:pointer;
     color:#3e3e3f;
-    margin-left:10vw;
+    margin-left:100px;
     margin-top: 30px;
 }
 #booktitle{
@@ -217,29 +135,4 @@ a { color: inherit; }
 #publicationscontainer{
     padding:20px 90px 100px 90px;
 }
-
-
-/*      PEOPLE/STAFF        */
-
-.peopleimagestyle{
-    width:290px;
-    height:200px;
-}
-.peopleimagecontainer{
-    display:inline-block;
-    margin:20px;
-
-    border: 2px solid rgba(0,0,0,.5);
-}
-
-
-
-
-
-
-
-
-
-
-
 

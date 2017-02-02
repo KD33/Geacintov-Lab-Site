@@ -2,21 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Geacintov Laboratory Homepage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=800, initial-scale=.4, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="Sam Mao & Kadeem Walsh">
     
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-   
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-   
-    <script src = "./js/geacintov_lab_site.js"  type="text/javascript"></script>
-
-    <script src="https://use.fontawesome.com/359f83a113.js"></script>
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Anaheim|Dosis|Catamaran|Raleway:300|Roboto" rel="stylesheet">
 
@@ -26,37 +16,39 @@
 <body>
 
 
-        <div id ="homepageheadercontainer">
+       <div id ="homepageheadercontainer">
             <div class = "animated slideInDown" id = "headertitle" >THE GEACINTOV LABORATORY            
-                <span id = "headerdescription" >
+            <span id = "headerdescription" > 
+                </br>
                 DNA Damage & Repair
                 </span> 
              </div>
              <hr id = "headerhr"/>
-            <div style = "width:65%;">
-                <div class = "animated fadeIn" id = "description">
+             <div id = "X" >
+              <div class = "animated fadeIn" id = "description">
                         The interests of the laboratory are on  DNA damage caused by environmental polynuclear aromatic cancer-causing contaminants and endogenous free radical intermediates that are overproduced in  humans at sites of inflammation. 
                         The focus of our studies is on mechanisms of formation of DNA lesions, their stereochemical and structural properties, and their  repair by the well known multi-tasking cellular defense mechanism called nucleotide excision repair.
-                </div>
-            </div>
-
+              </div>
+              </div>
         </div>
-
+      </div>
     <ul id = "menu" class= "menucontainer">
 
         <li class= "dropdownelementburger" >
             <i class="fa fa-bars"></i>
         </li>
 
-        <a  data-toggle = "tooltip" > 
           <li id = "itemselected" class = "dropdownelementselected" > <i class="fa fa-university"></i>
-        </li ></a>
+        </li >
+
         <li class = "filler"></li>
-        <a data-toggle = "tooltip" title = "People/Staff" href="./html/geacintov-site.people.html"> 
+
+        <a data-toggle = "tooltip" title = "People/Staff" href="./html/geacintov-site.people.html" data-placement="right"> 
             <li id = "item"  class = "dropdownelement"> <i class="fa fa-users"></i>
         </li></a>
+
           <li class = "filler"></li>      
-        <a data-toggle = "tooltip" title = "Publications/Books" href="./html/geacintov-site.books.publications.html">
+        <a data-toggle = "tooltip" title = "Publications/Books" href="./html/geacintov-site.books.publications.html" data-placement="right">
             <li id = "item2"  class = "dropdownelement">  <i class="fa fa-book "></i>
         </li></a>
 
@@ -67,7 +59,7 @@
             <div class = "subsectionname">Research Overview</div>
 
 
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"  style = "padding:0px 120px 50px 120px;width:100%;">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"  style = "padding:0px 10vw 50px 10vw;width:100%;">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -77,7 +69,6 @@
                 <div  class="carousel-item active">
                     <div class = "overviewmain1">
                         Human genomic DNA is under constant assault by endogenous reactive oxidizing chemical species present in the human body and by environmental contaminants that are metabolized to reactive intermediates that bind covalently to DNA bases.  If not removed by cellular defense systems (DNA repair), these DNA lesions will interfere with the transcription and replication of DNA and can cause the mutagenic insertion of the incorrect bases in the RNA transcripts and newly synthesized DNA molecules.  An accumulation of such mutations can lead to cancer. Understanding the detailed mechanisms of these phenomena may led to novel strategies for preventing this and other genetic diseases that are caused by the chemical alterations of normal DNA, as well as the design of more effective chemotherapeutic drugs. The overall objectives are to understand the formation and the removal  of  DNA lesions by cellular defense mechanisms.              
-   
 
                         <div style = "max-width:298px; width:95%; margin:auto;margin-top:20px;" class="card">
                                 <img class = "card-img-top img-fluid" style = "max-height:200px;width:100%;max-width:295px;" src="./images/Nucleosome.gif" class="figure-img img-fluid rounded" alt="Polynuclear aromatic hydrocarbon metabolite lesions (in red) embedded in DNA in a nucleosome gif."/> 
@@ -85,7 +76,7 @@
                             (Courtesy: Y. Cai and S. Broyde)</p> </div>
                         </div>
                     </div>
-                                        </div>    
+                </div>    
                 <div class="carousel-item">
                    
                     <div>
@@ -130,41 +121,16 @@
         </div>
 
 
+      <!-- scripts specific to html document -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-        <script type="text/javascript">
-        //FOR NAVIGATION BAR
-        var navbarfunction = function(){
-            var header = $('#homepageheadercontainer'); 
-            if (header.width() >= 800 && $('#menu').hasClass('menucontainer')) { 
-              $('#menu').removeClass().addClass('fullmenucontainer');
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+   
+    <script src = "./js/geacintov_lab_site.js"  type="text/javascript"></script>
 
-              $('#item').removeClass().addClass('fullmenuitem');        
-              $('#item2').removeClass().addClass('fullmenuitem ');    
-              $('#itemselected').removeClass().addClass('fullmenuitemselected'); 
-
-              $('.dropdownelementburger').hide(); 
-              $('.filler').show();
-            }
-            if (header.width() < 800 && $('#menu').hasClass('fullmenucontainer')) {
-              $('#menu').removeClass().addClass('menucontainer');
-
-              $('#item').removeClass().addClass('dropdownelement');        
-              $('#item2').removeClass().addClass('dropdownelement');     
-              $('#itemselected').removeClass().addClass('dropdownelementselected');        
-              
-              $('.dropdownelementburger').show(); 
-              $('.filler').hide();
-            } 
-        }
-        $( document ).ready(function() {
-            navbarfunction();
-        });
-
-        $(window).on('resize', function(){
-            navbarfunction();
-        });
-
-        </script>
+    <script src="https://use.fontawesome.com/359f83a113.js"></script>
 
 </body>
 </html>

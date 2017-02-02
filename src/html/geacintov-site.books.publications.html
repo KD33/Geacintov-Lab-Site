@@ -1,26 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=.25, shrink-to-fit=no">
+
+
     <title>Geacintov Laboratory Publications/Books </title>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-     <script src = "../js/Reactjs/react.js"  type="text/javascript"></script>  
-     <script src = "../js/Reactjs/react-dom.js"  type="text/javascript"></script> 
-     <script src = "../js/browser.min.js"  type="text/javascript"></script>   
-    <script src="https://use.fontawesome.com/359f83a113.js"></script>
-
-
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=800, initial-scale=.4, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="Sam Mao & Kadeem Walsh">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
     <link href="https://fonts.googleapis.com/css?family=Anaheim|Dosis:800|Catamaran|Raleway:300|Roboto" rel="stylesheet">
 
-    <link rel="stylesheet" href="../css/geacintov_lab_site.css">
+    <link rel="stylesheet" href="../css/geacintov_lab_publications.css">
   <link rel="stylesheet" href="../css/animate.css">
 
 </head>
@@ -32,16 +23,16 @@
             <i class="fa fa-bars"></i>
         </li>
 
-        <a data-toggle = "tooltip" title = "Homepage" href="../index.html"> 
+        <a data-placement="right" data-toggle = "tooltip" title = "Homepage" href="../index.html"> 
           <li class = "dropdownelement"> 
               <i class="fa fa-university"></i>
         </li></a>
 
-        <a data-toggle = "tooltip" title = "People/Staff" href="./geacintov-site.people.html"> <li class = "dropdownelement"> 
+        <a  data-placement="right" data-toggle = "tooltip" title = "People/Staff" href="./geacintov-site.people.html"> <li class = "dropdownelement"> 
             <i class="fa fa-users"></i>
         </li></a>
         
-        <a data-toggle = "tooltip" title = "Publications/Books">
+        <a data-placement="right" data-toggle = "tooltip" title = "Publications/Books">
             <li class = "dropdownelementselected"> 
             <i class="fa fa-book"></i>
         </li></a>
@@ -49,8 +40,8 @@
 
     <!-- Header Section-->
 
-        <div id ="headercontainer"    style = "padding:125px 0px 75px 0px;"
->
+
+        <div id ="headercontainer">
             <div class = "animated slideInDown" id = "headertitle" >THE GEACINTOV LABORATORY            
                 <span  class = "animated slideInDown"  id = "headerdescription" >
                     Books & Publications
@@ -61,15 +52,10 @@
                 <div class = "animated fadeIn" id = "description">
                   <span id = "booktitle">The Chemical Biology of DNA Damage: </span>Bringing the power of biochemical analysis to toxicology, this modern reference explains genotoxicity at the molecular level, showing the links between a DNA lesion and the resulting cellular or organismic response. 
                 </div>
-          </div>
-                  <div  style = "padding:50px 0px 0px 130px;">
-                <img class = "animated fadeIn" src="../images/Book_Image.png" style = "height:250px;width:200px;box-shadow:5px 5px 12px -4px rgba(0,0,0,0.56);"
-                   align="middle" alt="The Chemical Biology of DNA Damage"/> 
-                  
-                  <button type="button" class="slideInRight animated btn btn-primary bookmodalbutton" data-toggle="modal" data-target="#Preface">
-                    Preview
-                  </button>
             </div>
+            <button type="button" class="slideInRight animated btn btn-primary bookmodalbutton" data-toggle="modal" data-target="#Preface">
+                    Preview
+            </button>
       </div>
 
     <!-- Publication Section-->
@@ -90,6 +76,8 @@
             </button>
           </div>
           <div class="modal-body" style = "padding:30px;">
+            <img class = "animated fadeIn" src="../images/Book_Image.png" style = "height:250px;width:200px;box-shadow:5px 5px 12px -4px rgba(0,0,0,0.56);" align="middle" alt="The Chemical Biology of DNA Damage"/> 
+            <br/> <br/> <br/>
               The relationships between the chemical, structural, and biological aspects of DNA
               damage have long been parallel and overlapping research domains. More recently,
               interest has intensified in relating the structural characteristics of DNA damage
@@ -139,9 +127,35 @@
     </div>
 
       <!-- scripts specific to html document -->
-      <script src = "../js/geacintov_lab_site.js"  type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+     <script src = "../js/Reactjs/react.js"  type="text/javascript"></script>  
+     <script src = "../js/Reactjs/react-dom.js"  type="text/javascript"></script> 
+     <script src = "../js/browser.min.js"  type="text/javascript"></script>   
+    <script src="https://use.fontawesome.com/359f83a113.js"></script>
+     
       <script src = "../js/PublicationsReactComponent.js"  type="text/babel"></script>
 
+      <script type = "text/javascript">
+
+      $( document ).ready(function() {
+        $('.dropdownelementburger').click(function() {
+            if ($('.dropdownelement').is(":visible")) {
+                $('.dropdownelement').hide();
+                $('.dropdownelementselected').hide();
+                $('.menucontainer').css({"height":"50px","transition":"height 500ms ease-in-out"});
+
+            } else {
+                $('.dropdownelementselected').show(500);
+               $('.dropdownelement').show(500);   
+                $('.menucontainer').css({"height":"270px","transition":"height 500ms ease-in-out"});
+              }
+        });
+          $('[data-toggle="tooltip"]').tooltip();   
+      });
+      </script>
     
 </body>
 </html>
