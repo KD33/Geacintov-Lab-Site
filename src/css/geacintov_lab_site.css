@@ -113,7 +113,7 @@ a { color: inherit; }
 
 #homepageheadercontainer{
     padding:105px 0px 85px 0px;
-    background-image: url('../images/HeaderBackground.png');
+    background-image: url('../images/HeaderBackground2.png');
     background-size: 100% 100%;
 }
 
@@ -141,7 +141,7 @@ a { color: inherit; }
 }
 #description{
     font-family: 'Anaheim'; 
-    font-size:16px;
+    font-size:17px;
     color:#7a7a7a;
     padding-left: 100px;
 }
@@ -179,59 +179,15 @@ a { color: inherit; }
     padding:20px 0px 30px 0px;
 }
 .overviewmain1{
-    color:#e0e0e0;
-    font-size:18px;
+    color:#595050;
+    font-size:20px !important;
     border: 2px solid rgba(255,255,255,.25);
-    padding:14px 19px 20px 19px;
-    background-color: rgba(255,255,255,.15);
-    font-family: 'Anaheim';
-}
-
-
-
-/*     PUBLICATIONS/BOOKS         */
-
-
-.bookmodalbutton{
-    display:inline-block;
-    font-size: 16px;
+    margin-top: 3px;
+    padding:50px 60px 20px 60px;
+    background-color: rgba(255,255,255,.8);
     font-family: 'Dosis';
-    vertical-align: middle;
-    user-select:none;
-    padding:10px 35px 10px 35px;
-    border: 2px #3e3e3f solid;
-    background-color: transparent;
-    border-radius: 0px;
-    cursor:pointer;
-    color:#3e3e3f;
-    margin-left:10vw;
-    margin-top: 30px;
+    border-radius: 5px;
 }
-#booktitle{
-    font-family: 'Raleway';
-    color: #ff7043;
-    font-size: 15px;
-    height:30px;
-}
-
-#publicationscontainer{
-    padding:20px 90px 100px 90px;
-}
-
-
-/*      PEOPLE/STAFF        */
-
-.peopleimagestyle{
-    width:290px;
-    height:200px;
-}
-.peopleimagecontainer{
-    display:inline-block;
-    margin:20px;
-
-    border: 2px solid rgba(0,0,0,.5);
-}
-
 
 
 

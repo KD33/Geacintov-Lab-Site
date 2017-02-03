@@ -30,14 +30,11 @@
         header.css({"background-size":"1000px 100%"});
         $('#headertitle').css({"font-size":"40px"});
         $('#description').css({"font-size":"14px"});
-       $('.overviewmain1').css({"font-size":"15px"});
-
       }else{
         $('#X').css({"width":"50%"});
         header.css({"background-size":"100% 100%"});
         $('#headertitle').css({"font-size":"52px"});
-        $('#description').css({"font-size":"16px"}); 
-        $('.overviewmain1').css({"font-size":"18px"}); 
+        $('#description').css({"font-size":"17px"}); 
       }
   }
 
