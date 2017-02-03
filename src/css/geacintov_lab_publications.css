@@ -68,7 +68,9 @@ a { color: inherit; }
 
 #headercontainer{
     padding:120px 0px 60px 0px;
-    background-color:rgba(230, 230, 230,.9);  
+    background-color:rgba(230, 230, 230,.9); 
+    background-image: url('../images/HeaderBackground3.png');
+    background-size: 100% 100%; 
 }
 
 #headertitle{
