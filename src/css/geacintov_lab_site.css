@@ -5,8 +5,8 @@ html { height: 100%;
 
 body { 
     min-height: 100%;  
-    padding:7px 7px 0px 7px;
     min-width:400px;
+    padding:30px 30px 0px 30px;
 }
 
 a { color: inherit; } 
@@ -18,13 +18,13 @@ a { color: inherit; }
 .menucontainer{
     width:45px;
     background-color:#afa89c;
-    border-radius: 5px;
+    border-radius: 3px;
     opacity:.85;
     padding:0px;
     position:fixed;
     top:20px;
     height:270px;
-    margin:6vh 0px 0px 20px;
+    margin:10vh 0px 0px 15px;
     z-index:100;
     box-shadow: 1px 6px 6px rgba(0,0,0,0.16), 1px 6px 6px rgba(0,0,0,0.23);
 }
@@ -67,21 +67,23 @@ a { color: inherit; }
 /*      HOMEPAGE        */
 
 .fullmenucontainer{
-    padding:7px 0px 5px 31vw;
-    background-color: rgba(0, 0, 0,.8);
+    padding:7px 0px 5px 28.5vw;
+    background-color: #e0e0e0;
     margin:0;
+    /*border-right:25px solid #e5e5e5;
+    border-left:25px solid #e5e5e5;*/
 }
 .fullmenuitem{
     display:inline-block;
     text-align: center;
-    height:55px;
-    width:55px;
+    height:50px;
+    width:50px;
     font-size: 20px;
     color:white;
     text-decoration:none;
     list-style-type: none;
     border-radius: 75px;
-    padding-top: 12px;
+    padding-top: 10px;
     border: 2px solid rgba(255,255,255,.25);
     background-color: rgba(255, 138, 101,.5);
     cursor:pointer;
@@ -93,16 +95,16 @@ a { color: inherit; }
 .fullmenuitemselected{
     display:inline-block;
     text-align: center;
-    height:55px;
-    width:55px;
+    height:50px;
+    width:50px;
     font-size: 20px;
     border-radius: 75px;
-    padding-top: 9px;
+    padding-top: 8px;
     padding-left:1px;
     color:white;
     text-decoration:none;
     list-style-type: none;
-    border: 2px solid rgba(255,255,255,.25);
+    border: 2px solid rgba(255, 138, 101,.5);
     background-color: rgba(0, 0, 0,.4);
 }
 .fullmenuitem:hover{
@@ -112,15 +114,14 @@ a { color: inherit; }
 
 
 #homepageheadercontainer{
-    padding:105px 0px 85px 0px;
+    padding:125px 0px 100px 0px;
     background-image: url('../images/HeaderBackground2.png');
     background-size: 100% 100%;
 }
 
 #headertitle{
-    font-size:52px;
     font-family: 'Raleway';
-    padding-left: 90px;
+    padding-left: 75px;
     padding-right:18.5vw;
     margin:0;
     margin-top: -40px;
@@ -135,15 +136,15 @@ a { color: inherit; }
 }
 #headerhr{
     height:2px;
-    width:55px;
+    width:75px;
     background-color:black;
-    margin:5px 0px 45px 100px;
+    margin:5px 0px 45px 75px;
 }
 #description{
     font-family: 'Anaheim'; 
     font-size:17px;
     color:#7a7a7a;
-    padding-left: 100px;
+    padding-left: 75px;
 }
 
 /*              */
@@ -165,34 +166,51 @@ a { color: inherit; }
 
 }
 
+
+
+#overviewcontainer{
+    background-color: #7a7474;
+    padding:20px 0px 30px 0px;
+    margin-top: 30px;
+    /*border-right:25px solid #e5e5e5;
+    border-left:25px solid #e5e5e5;*/
+}
 .subsectionname{
     color: #ffab91;
     text-align: center;
     font-family: 'Raleway';
-    font-size:27px;
+    font-size:23px;
     padding:20px 0px 25px 0px;
 }
 
-
-#overviewcontainer{
-    background-color: #595050;
-    padding:20px 0px 30px 0px;
-}
 .overviewmain1{
     color:#595050;
-    font-size:20px !important;
+    font-size:17px !important;
     border: 2px solid rgba(255,255,255,.25);
     margin-top: 3px;
     padding:50px 60px 20px 60px;
-    background-color: rgba(255,255,255,.8);
+    background-color: rgba(255,255,255,.6);
     font-family: 'Dosis';
     border-radius: 5px;
 }
 
+#researchcontainer{
+    margin-top: 2px;
+    padding:30px 10px 10px 10px;
+    text-align:center;
+    font-size:12px;
+    color:#545353; 
+    font-family: 'Roboto';
+    background-color: 
+}
 
 
-
-
+#footer{
+    padding:10px 0px 10px 2vw;
+    color: rgba(0, 0, 0,.8);
+    font-size: 11px;
+    text-align: center;
+}
 
 
 

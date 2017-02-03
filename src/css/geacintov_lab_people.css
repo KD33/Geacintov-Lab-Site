@@ -4,8 +4,7 @@ html { height: 100%;
 }
 
 body { 
-    min-height: 100%;  
-    padding:5px 5px 0px 5px;
+    min-height:100%;  
     min-width:400px;
 }
 
@@ -24,7 +23,7 @@ a { color: inherit; }
     position:fixed;
     top:20px;
     height:270px;
-    margin:6vh 0px 0px 20px;
+    margin:6vh 0px 0px 50px;
     z-index:100;
     box-shadow: 1px 6px 6px rgba(0,0,0,0.16), 1px 6px 6px rgba(0,0,0,0.23);
 }
@@ -66,8 +65,9 @@ a { color: inherit; }
 #headercontainer{
     padding: 120px 0px 90px 0px;
     background-color:rgba(230, 230, 230,.9);  
-        background-image: url('../images/HeaderBackground3.png');
+    background-image: url('../images/HeaderBackground3.png');
     background-size: 100% 100%;
+    margin:30px;
 }
 
 #headertitle{

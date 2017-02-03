@@ -26,15 +26,15 @@
       var header = $('#homepageheadercontainer'); //this = window
 
       if (header.width() < 1000) {
-        $('#X').css({"width":"60%"});
+        $('#X').css({"width":"70%"});
         header.css({"background-size":"1000px 100%"});
-        $('#headertitle').css({"font-size":"40px"});
-        $('#description').css({"font-size":"14px"});
+        $('#headertitle').css({"font-size":"35px"});
+        $('#description').css({"font-size":"13px"});
       }else{
-        $('#X').css({"width":"50%"});
+        $('#X').css({"width":"60%"});
         header.css({"background-size":"100% 100%"});
-        $('#headertitle').css({"font-size":"52px"});
-        $('#description').css({"font-size":"17px"}); 
+        $('#headertitle').css({"font-size":"45px"});
+        $('#description').css({"font-size":"15px"}); 
       }
   }
 
@@ -43,7 +43,6 @@ $( document ).ready(function() {
     
     navbarfunction();
   	headerfunction();
-
     $('.dropdownelementburger').click(function() {
   		  if ($('.dropdownelement').is(":visible")) {
   			  	$('.dropdownelement').hide();
