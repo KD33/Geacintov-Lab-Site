@@ -1,15 +1,15 @@
 
-html { height: 100%; 
+html { height: 100%;
   box-sizing: border-box;
 }
 
-body { 
-    min-height: 100%;  
+body {
+    min-height: 100%;
     min-width:400px;
     padding:30px 30px 0px 30px;
 }
 
-a { color: inherit; } 
+a { color: inherit; }
 
 /*              */
 
@@ -141,7 +141,7 @@ a { color: inherit; }
     margin:5px 0px 45px 75px;
 }
 #description{
-    font-family: 'Anaheim'; 
+    font-family: 'Anaheim';
     font-size:17px;
     color:#7a7a7a;
     padding-left: 75px;
@@ -199,9 +199,13 @@ a { color: inherit; }
     padding:35px 1vw 20px 1vw;
     text-align:center;
     font-size:12px;
-    color:#423a37; 
+    color:#423a37;
     font-family: 'Roboto';
     background-color: #fcc1ab;
+}
+#researchcontainertext{
+  padding:35px 100px 20px 100px;
+
 }
 
 
@@ -212,9 +216,3 @@ a { color: inherit; }
     text-align: center;
 
 }
-
-
-
-
-
-
