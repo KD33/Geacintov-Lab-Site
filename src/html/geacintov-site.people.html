@@ -25,39 +25,39 @@
             <i class="fa fa-bars"></i>
         </li>
 
-        <a data-placement="right" data-toggle = "tooltip" title = "Homepage" href="../index.html"> 
-          <li class = "dropdownelement"> 
+        <a data-placement="right" data-toggle = "tooltip" title = "Homepage" href="../index.html">
+          <li class = "dropdownelement">
               <i class="fa fa-university"></i>
         </li></a>
 
             <a data-toggle = "tooltip" title = "People/Staff" data-placement="right">
-          <li class = "dropdownelementselected"> 
+          <li class = "dropdownelementselected">
           <i class="fa fa-users"></i>
           </li></a>
-        
+
         <a  data-placement="right" data-toggle = "tooltip" title = "Publications/Books" href = "./geacintov-site.books.publications.html">
-            <li class = "dropdownelement"> 
+            <li class = "dropdownelement">
             <i class="fa fa-book"></i>
         </li></a>
     </ul>
 
         <div id ="headercontainer">
         <div class = "animated slideInDown" id = "headertitle" >
-            THE GEACINTOV LABORATORY            
+            THE GEACINTOV LABORATORY
             <span  class = "animated slideInDown"  id = "headerdescription">
                 People/Staff
-            </span> 
+            </span>
          </div>
         <hr id = "headerhr"/>
         <div style = "width:55%;">
           <div class = "animated fadeIn" id = "description" >
-          The people currently working in this lab are comprised of highly skilled professors, research scientists and students with a wide range of experience. 
+          The people currently working in this lab are comprised of highly skilled professors, research scientists and students with a wide range of experience.
 
-          <span style = "font-weight:bold;text-decoration: underline;">Click the photos of the following staff photos for more information.</span> 
+          <span style = "font-weight:bold;text-decoration: underline;">Click the photos of the following staff photos for more information.</span>
           </div>
     </div>
 </div>
-<div style = "padding:10px 80px 20px 80px;" >
+<div style = "padding:10px 170px 20px 80px;" >
 
   <div class="container">
     <div class = "subsectionname">CURRENT STAFF</div>
@@ -65,9 +65,11 @@
 
           <div class="hvr-grow peopleimagecontainer">
             <a href="http://chemistry.as.nyu.edu/object/nicholasegeacintov.html">
-              <img class="peopleimagestyle thumbnail"src="../images/CurrentStaff/NEGeacintov.png"></img>
+              <figure>
+                <img class="peopleimagestyle thumbnail"src="../images/CurrentStaff/NEGeacintov.png"></img>
             </a>
-            <figcaption style = "padding:12px"><strong>Nicholas Geacintov</strong><br>Professor, Head of Lab</figcaption>
+                <figcaption style = "padding:12px"><strong>Nicholas Geacintov</strong><br>Professor, Head of Lab</figcaption>
+              </figure>
           </div>
 
           <div class="hvr-grow peopleimagecontainer">
@@ -135,6 +137,7 @@
           </div>
 
         </div>
+      </div>
 </div>
 <!--Horizontal scroll bar for alum-->
   <hr>
@@ -146,7 +149,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
     <script src="https://use.fontawesome.com/359f83a113.js"></script>
-  
+
       <script type = "text/javascript">
           var headerfunction = function()
           {
@@ -159,9 +162,11 @@
               }else{
                 header.css({"background-size":"100% 100%"});
                 $('#headertitle').css({"font-size":"45px"});
-                $('#description').css({"font-size":"15px"}); 
+                $('#description').css({"font-size":"15px"});
               }
           }
+
+
           $( document ).ready(function() {
             headerfunction();
             $('.dropdownelementburger').click(function() {
@@ -172,11 +177,11 @@
 
                 } else {
                     $('.dropdownelementselected').show(500);
-                   $('.dropdownelement').show(500);   
+                   $('.dropdownelement').show(500);
                     $('.menucontainer').css({"height":"270px","transition":"height 500ms ease-in-out"});
                   }
             });
-              $('[data-toggle="tooltip"]').tooltip();   
+              $('[data-toggle="tooltip"]').tooltip();
           });
           $(window).on('resize', function(){
               headerfunction();

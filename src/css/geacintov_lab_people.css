@@ -1,14 +1,14 @@
 
-html { height: 100%; 
+html { height: 100%;
   box-sizing: border-box;
 }
 
-body { 
-    min-height:100%;  
+body {
+    min-height:100%;
     min-width:400px;
 }
 
-a { color: inherit; } 
+a { color: inherit; }
 
 /*              */
 
@@ -64,7 +64,7 @@ a { color: inherit; }
 
 #headercontainer{
     padding: 120px 0px 90px 0px;
-    background-color:rgba(230, 230, 230,.9);  
+    background-color:rgba(230, 230, 230,.9);
     background-image: url('../images/HeaderBackground3.png');
     background-size: 100% 100%;
     margin:30px;
@@ -91,7 +91,7 @@ a { color: inherit; }
     margin:5px 0px 30px 100px;
 }
 #description{
-    font-family: 'Anaheim'; 
+    font-family: 'Anaheim';
     font-size:16px;
     color:#7a7a7a;
     padding-left: 100px;
@@ -110,7 +110,7 @@ a { color: inherit; }
 /*      PEOPLE/STAFF        */
 
 .peopleimagestyle{
-    width:290px;
+    width:260px;
     height:200px;
 }
 .peopleimagecontainer{
@@ -119,15 +119,3 @@ a { color: inherit; }
 
     border: 2px solid rgba(0,0,0,.5);
 }
-
-
-
-
-
-
-
-
-
-
-
-
