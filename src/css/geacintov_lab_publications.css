@@ -135,6 +135,15 @@ a { color: inherit; }
 }
 
 #publicationscontainer{
-    padding:20px 90px 100px 90px;
+    padding:20px 90px 50px 90px;
+    background-color: #fcfcfc;
+    margin:-28px 30px 30px 30px;
+}
+
+#footer{
+    padding-top:30px;
+    color: rgba(0, 0, 0,.8);
+    font-size: 9px;
+    text-align: center;
 }
 

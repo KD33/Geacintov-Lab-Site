@@ -520,76 +520,75 @@ var Publications = React.createClass({
 
               <div style = {radiocontainer}>
                 <p>Current Year: {this.state.year}</p>
-                <div className="form-check form-check-inline"><label className="form-check-label">
+                <div className="form-check form-check-inline">
                   <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" 
                     value={2016} 
                     onClick= {this.handleYearChange}
                     /> 
                     <h6>2016</h6>
-                </label></div>
+                </div>
                 
-                <div className="form-check form-check-inline"><label className="form-check-label">
+                <div className="form-check form-check-inline">
                   <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" 
                     value={2015} 
                     onClick= {this.handleYearChange}
-                    /> 
                     <h6>2015</h6>
-                </label></div>
+                 </div>
                 
-                <div className="form-check form-check-inline"><label className="form-check-label">
+                <div className="form-check form-check-inline"> 
                   <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" 
                     value={2014} 
                     onClick= {this.handleYearChange}
                     /> 
                     <h6>2014</h6>
-                </label></div>
+                 </div>
                 
-                <div className="form-check form-check-inline"><label className="form-check-label">
+                <div className="form-check form-check-inline"> 
                   <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" 
                     value={2013} 
                     onClick= {this.handleYearChange}
                     /> 
                     <h6>2013</h6>
-                </label></div>
+                 </div>
                 
-                <div className="form-check form-check-inline"><label className="form-check-label">
+                <div className="form-check form-check-inline"> 
                   <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" 
                     value={2012} 
                     onClick= {this.handleYearChange}
                     /> 
                     <h6>2012</h6>
-                </label></div>
+                 </div>
                 
-                <div className="form-check form-check-inline"><label className="form-check-label">
+                <div className="form-check form-check-inline"> 
                   <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" 
                     value={2011} 
                     onClick= {this.handleYearChange}
                     /> 
                     <h6>2011</h6>
-                </label></div>
+                 </div>
                 
-                <div className="form-check form-check-inline"><label className="form-check-label">
+                <div className="form-check form-check-inline"> 
                   <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" 
                     value={2010} 
                     onClick= {this.handleYearChange}
                     /> 
                     <h6>2010</h6>
-                </label></div>
+                 </div>
                 
-                <div className="form-check form-check-inline"><label className="form-check-label">
+                <div className="form-check form-check-inline"> 
                   <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" 
                     value={2009} 
                     onClick= {this.handleYearChange}
                     /> 
                     <h6>2009</h6>
-                </label></div>
-                <div className="form-check form-check-inline"><label className="form-check-label">
+                 </div>
+                <div className="form-check form-check-inline"> 
                   <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" 
                     value={2008} 
                     onClick= {this.handleYearChange}
                     /> 
                     <h6>2008-2006</h6>
-                </label></div>
+                 </div>
               </div>
 
                {this.handleData()}

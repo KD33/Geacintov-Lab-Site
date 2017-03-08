@@ -19,7 +19,7 @@ a { color: inherit; }
     width:45px;
     background-color:#afa89c;
     border-radius: 3px;
-    opacity:.85;
+    opacity:.7;
     padding:0px;
     position:fixed;
     top:20px;
@@ -169,8 +169,8 @@ a { color: inherit; }
 
 
 #overviewcontainer{
-    background-color: #7a7474;
-    padding:20px 0px 30px 0px;
+    background-color: rgba(100, 100, 100,.3);
+    padding:30px 0px 40px 0px;
     margin-top: 30px;
     /*border-right:25px solid #e5e5e5;
     border-left:25px solid #e5e5e5;*/
@@ -180,7 +180,7 @@ a { color: inherit; }
     text-align: center;
     font-family: 'Raleway';
     font-size:23px;
-    padding:20px 0px 25px 0px;
+    padding:20px;
 }
 
 .overviewmain1{
@@ -188,24 +188,37 @@ a { color: inherit; }
     font-size:17px !important;
     border: 2px solid rgba(255,255,255,.25);
     margin-top: 3px;
-    padding:50px 60px 20px 60px;
-    background-color: rgba(255,255,255,.6);
+    padding:30px 60px 20px 60px;
+    background-color: rgba(255, 255, 255,.6);
     font-family: 'Dosis';
     border-radius: 5px;
 }
 
-#researchcontainer{
-    margin-top: 2px;
-    padding:35px 1vw 20px 1vw;
-    text-align:center;
+#footercontainer{
     font-size:12px;
     color:#423a37;
     font-family: 'Roboto';
-    background-color: #fcc1ab;
+    margin: 2px 0px 0px 0px;
+    text-align: center;
 }
-#researchcontainertext{
-  padding:35px 100px 20px 100px;
 
+.footertitle{
+    font-family: 'Raleway';
+    font-size: 14px;
+    color:  #c9c7c7;
+    text-align: center;
+    padding:20px;
+}
+#researchtext{
+    padding:50px 10% 70px 10%;
+    background-color: #686868;
+    color: #c9c7c7;
+
+}
+#locationtext{
+    padding:50px 0px 50px 0px;
+    background-color: #545353;
+    color: #c9c7c7;
 }
 
 
@@ -213,6 +226,4 @@ a { color: inherit; }
     padding:30px 0px 15px 0px;
     color: rgba(0, 0, 0,.8);
     font-size: 9px;
-    text-align: center;
-
 }

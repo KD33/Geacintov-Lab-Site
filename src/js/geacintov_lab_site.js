@@ -25,9 +25,9 @@
   {
       var header = $('#homepageheadercontainer'); //this = window
 
-      if (header.width() < 1000) {
+      if (header.width() < 800) {
         $('#X').css({"width":"70%"});
-        header.css({"background-size":"1000px 100%"});
+        header.css({"background-size":"1200px 100%"});
         $('#headertitle').css({"font-size":"35px"});
         $('#description').css({"font-size":"13px"});
       }else{

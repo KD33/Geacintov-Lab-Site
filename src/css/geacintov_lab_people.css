@@ -102,20 +102,33 @@ a { color: inherit; }
     color: #ffab91;
     text-align: center;
     font-family: 'Raleway';
-    font-size:27px;
+    font-size:33px;
     padding:20px 0px 25px 0px;
 }
 
 
 /*      PEOPLE/STAFF        */
-
+.peoplesection{
+   background-color: #fcfcfc;
+   margin:-28px 30px 30px 30px;
+   padding:20px;
+}
 .peopleimagestyle{
     width:260px;
     height:200px;
 }
+
 .peopleimagecontainer{
     display:inline-block;
-    margin:20px;
-
     border: 2px solid rgba(0,0,0,.5);
+    margin:20px;
+    width:264px;
+    font-size: 14px;
+}
+
+#footer{
+    padding:30px 0px 15px 0px;
+    color: rgba(0, 0, 0,.8);
+    font-size: 9px;
+    text-align: center;
 }
