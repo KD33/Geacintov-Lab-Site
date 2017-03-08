@@ -38,11 +38,21 @@
       }
   }
 
+  var overviewfunction = function()
+  {
+    var overview = $('.overviewmain1');
+    if(overview.width() < 600){
+      overview.css({"font-size":"14px"})
+    }else{
+      overview.css({"font-size":"17px"})
+    }
+  }
 
 $( document ).ready(function() {
     
     navbarfunction();
   	headerfunction();
+    overviewfunction();
     $('.dropdownelementburger').click(function() {
   		  if ($('.dropdownelement').is(":visible")) {
   			  	$('.dropdownelement').hide();
@@ -68,6 +78,7 @@ $(document).on('mouseleave', '.carousel', function() {
 $(window).on('resize', function(){
     navbarfunction();
     headerfunction();
+    overviewfunction();
 });
 
 
