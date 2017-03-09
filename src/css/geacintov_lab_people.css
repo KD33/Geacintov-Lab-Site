@@ -23,9 +23,9 @@ a { color: inherit; }
     position:fixed;
     top:20px;
     height:270px;
-    margin:6vh 0px 0px 50px;
+    margin:6vh 0px 0px 40px;
     z-index:100;
-    box-shadow: 1px 6px 6px rgba(0,0,0,0.16), 1px 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 1px 3px 3px rgba(0,0,0,0.16), 1px 3px 3px rgba(0,0,0,0.23);
 }
 .dropdownelement{
     text-decoration:none;

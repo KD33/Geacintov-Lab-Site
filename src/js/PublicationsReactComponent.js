@@ -206,11 +206,11 @@ var year2010 = [
 
     ["",
   "Jia L, Geacintov NE, Broyde S.",
-  "The N-clasp of human DNA polymerase kappa promotes blockage or error-free  bypass of   adenine- or guanine-benzo[a]pyrenyl lesions. Nucleic Acids Res. 36(20):6571-84 (2008). PMID: 18931375"],
+  "The N-clasp of human DNA polymerase kappa promotes blockage or error-free bypass of adenine- or guanine-benzo[a]pyrenyl lesions. Nucleic Acids Res. 36(20):6571-84 (2008). PMID: 18931375"],
     ["",
 
-  " DNA  sequence context as a determinant of the equantity and chemistry of guanine  oxidation produced by hydroxyl radicals and one-electron produced by hydroxyl  radicals and one-electron oxidants.   J Biol Chem. 283(51):35569-78 (2008).  PMID: 18948263.",
-    "Margolin Y, Shafirovich V,  Geacintov NE, DeMott MS, Dedon PC."],
+  " DNA sequence context as a determinant of the equantity and chemistry of guanine  oxidation produced by hydroxyl radicals and one-electron produced by hydroxyl  radicals and one-electron oxidants.   J Biol Chem. 283(51):35569-78 (2008).  PMID: 18948263.",
+    "Margolin Y, Shafirovich V, Geacintov NE, DeMott MS, Dedon PC."],
 ]
 var year2011 = [
   ["",
@@ -382,28 +382,28 @@ var year2014 = [
 
   ["",
   "One-electron oxidationreactions of purine and pyrimidine bases in cellular DNA. Int J Radiat Biol. 2014, 90(6):423-32.",
-  "Cadet J, Wagner JR, Shafirovich V, Geacintov NE. "
+  "Cadet J, Wagner JR, Shafirovich V, Geacintov NE."
   ],
 
   ["",
-  "Ribonucleotides as nucleotide excision repairsubstrates. DNA Repair (Amst). 2014 Jan;13:55-60.  PMID: 24290807.",
+  "Ribonucleotides as nucleotide excision repair substrates. DNA Repair (Amst). 2014 Jan; 13:55-60.  PMID: 24290807.",
   "Cai Y, Geacintov NE, Broyde S."
   ],
 
   ["https://www.ncbi.nlm.nih.gov/pubmed/25460917",
-  ".Human DNA polymerases catalyze lesion bypass across benzo[a]pyrene-derived DNA adduct clustered with an abasic site.  DNA Repair (Amst). 2014 Dec;24:1-9.  PMID: 25460917",
+  "Human DNA polymerases catalyze lesion bypass across benzo[a]pyrene-derived DNA adduct clustered with an abasic site.  DNA Repair (Amst). 2014 Dec;24:1-9.  PMID: 25460917",
   "Starostenko LV, Rechkunova NI, Lebedeva NA, Kolbanovskiy A, Geacintov NE, LavrikOI."
   ],
 ]
 
 var year2015 = [
   ["",
-  "Correction:Resistance to Nucleotide Excision Repair of Bulky Guanine Adducts Opposite Abasic  Sites in DNA Duplexes and Relationships between Structure and Function. PLoS One.  2015 Oct 29;10(10):e0142068. PMCID: PMC4626036. Erratum in: PLoS One. 2015;10(10):e0142068. Lei, Jia [corrected to Jia, Lei]. PMCID: PMC4560436.",
+  "Correction: Resistance to Nucleotide Excision Repair of Bulky Guanine Adducts Opposite Abasic  Sites in DNA Duplexes and Relationships between Structure and Function. PLoS One.  2015 Oct 29;10(10):e0142068. PMCID: PMC4626036. Erratum in: PLoS One. 2015;10(10):e0142068. Lei, Jia [corrected to Jia, Lei]. PMCID: PMC4560436.",
   "Liu Z, Ding S, Kropachev K, Jia L, Amin S, Broyde S, Geacintov NE."
   ],
 
   ["",
-  "DNA sequence  context greatly affects the accuracy of bypass across an ultraviolet light 6-4 photoproduct in mammalian cells. Mutat Res. 2015 Oct;780:71-6. PMCID: PMC4871125.",
+  "DNA sequence context greatly affects the accuracy of bypass across an ultraviolet light 6-4 photoproduct in mammalian cells. Mutat Res. 2015 Oct;780:71-6. PMCID: PMC4871125.",
   "Shriber P, Leitner-Dagan Y, Geacintov N, Paz-Elizur T, Livneh Z. "
   ],
 
@@ -451,7 +451,7 @@ var year2016 = [
   ],
 
   ["",
-  "Nucleotide Excision Repair andTranscription-coupled DNA Repair Abrogate the Impact of DNA Damage onTranscription. J Biol Chem. 2016 Jan 8;291(2):848-61. PMCID: PMC4705403",
+  "Nucleotide Excision Repair andTranscription-coupled DNA Repair Abrogate the Impact of DNA Damage on Transcription. J Biol Chem. 2016 Jan 8;291(2):848-61. PMCID: PMC4705403",
   "Nadkarni A, Burns JA, Gandolfi A, Chowdhury MA, Cartularo L, Berens C,Geacintov NE, Scicchitano DA."
   ],
 ]
@@ -499,11 +499,15 @@ var Publications = React.createClass({
           list.map(function(listValue){ 
             if(listValue[0] == "")
               return (
-                  <a key = {listValue[1]} className="list-group-item" style = {{fontSize:"15px"}}> {listValue[1]} <span style = {authorStyle}> {listValue[2]}</span> </a>
+                  <a key = {listValue[1]} className="list-group-item" style = {{fontSize:"15px"}}> {listValue[1]} 
+                  <br/> <div style = {authorStyle}> {listValue[2]}</div> 
+                  </a>
               )
             else
               return (
-                  <a key = {listValue[1]} className="list-group-item" href = {listValue[0]} style = {{fontSize:"15px",fontWeight:"bold"}}> {listValue[1]} <span style = {authorStyle}> {listValue[2]}</span> </a>
+                  <a key = {listValue[1]} className="list-group-item" href = {listValue[0]} style = {{fontSize:"15px",fontWeight:"bold"}}> {listValue[1]} 
+                    <br/> <div style = {authorStyle}> {listValue[2]}</div> 
+                  </a>
                 )
           })
       )
@@ -512,7 +516,7 @@ var Publications = React.createClass({
   ,
   render: function() {
     let radiocontainer = {
-
+      paddingLeft:"30px"
     }
     return (
         <div>
@@ -520,74 +524,76 @@ var Publications = React.createClass({
 
               <div style = {radiocontainer}>
                 <p>Current Year: {this.state.year}</p>
-                <div className="form-check form-check-inline">
+                
+                <div className="form-check form-check-inline" style = {{width:"75px"}}>
                   <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" 
                     value={2016} 
                     onClick= {this.handleYearChange}
                     /> 
-                    <h6>2016</h6>
+                    <p>2016</p>
                 </div>
                 
-                <div className="form-check form-check-inline">
+                <div className="form-check form-check-inline" style = {{width:"75px"}}>
                   <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" 
                     value={2015} 
                     onClick= {this.handleYearChange}
-                    <h6>2015</h6>
+                    />
+                    <p>2015</p>
                  </div>
                 
-                <div className="form-check form-check-inline"> 
+                <div className="form-check form-check-inline" style = {{width:"75px"}}> 
                   <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" 
                     value={2014} 
                     onClick= {this.handleYearChange}
                     /> 
-                    <h6>2014</h6>
+                    <p>2014</p>
                  </div>
                 
-                <div className="form-check form-check-inline"> 
+                <div className="form-check form-check-inline" style = {{width:"75px"}}> 
                   <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" 
                     value={2013} 
                     onClick= {this.handleYearChange}
                     /> 
-                    <h6>2013</h6>
+                    <p>2013</p>
                  </div>
                 
-                <div className="form-check form-check-inline"> 
+                <div className="form-check form-check-inline" style = {{width:"75px"}}> 
                   <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" 
                     value={2012} 
                     onClick= {this.handleYearChange}
                     /> 
-                    <h6>2012</h6>
+                    <p>2012</p>
                  </div>
                 
-                <div className="form-check form-check-inline"> 
+                <div className="form-check form-check-inline" style = {{width:"75px"}}> 
                   <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" 
                     value={2011} 
                     onClick= {this.handleYearChange}
                     /> 
-                    <h6>2011</h6>
+                    <p>2011</p>
                  </div>
                 
-                <div className="form-check form-check-inline"> 
+                <div className="form-check form-check-inline" style = {{width:"75px"}}> 
                   <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" 
                     value={2010} 
                     onClick= {this.handleYearChange}
                     /> 
-                    <h6>2010</h6>
+                    <p>2010</p>
                  </div>
                 
-                <div className="form-check form-check-inline"> 
+                <div className="form-check form-check-inline" style = {{width:"75px"}}> 
                   <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" 
                     value={2009} 
                     onClick= {this.handleYearChange}
                     /> 
-                    <h6>2009</h6>
+                    <p>2009</p>
                  </div>
-                <div className="form-check form-check-inline"> 
+                <div className="form-check form-check-inline" style = {{width:"125px"}}> 
                   <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" 
                     value={2008} 
                     onClick= {this.handleYearChange}
                     /> 
-                    <h6>2008-2006</h6>
+                    <p>2008-2006</p>
                  </div>
               </div>
 
