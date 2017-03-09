@@ -81,7 +81,7 @@ a { color: inherit; }
     font-family: 'Raleway';
     color: #ff7043;
     padding:5px;
-    font-size: 23px;
+    font-size: 17px;
     white-space: nowrap;
 }
 #headerhr{
@@ -109,7 +109,7 @@ a { color: inherit; }
 
 /*      PEOPLE/STAFF        */
 .peoplesection{
-   background-color: #fcfcfc;
+   background-color:#efefef;
    margin:-28px 30px 30px 30px;
    padding:20px;
 }

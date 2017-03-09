@@ -8,7 +8,6 @@
         $('#item2').removeClass().addClass('fullmenuitem ');    
         $('#itemselected').removeClass().addClass('fullmenuitemselected'); 
         $('.dropdownelementburger').hide(); 
-        $('.filler').show();
       }
       else {
         $('#menu').removeClass().addClass('menucontainer');
@@ -16,7 +15,6 @@
         $('#item2').removeClass().addClass('dropdownelement');     
         $('#itemselected').removeClass().addClass('dropdownelementselected');       
         $('.dropdownelementburger').show(); 
-        $('.filler').hide();
       } 
 
   }
@@ -29,12 +27,12 @@
         $('#X').css({"width":"70%"});
         header.css({"background-size":"1200px 100%"});
         $('#headertitle').css({"font-size":"35px"});
-        $('#description').css({"font-size":"13px"});
+        $('#description').css({"font-size":"14px"});
       }else{
         $('#X').css({"width":"60%"});
         header.css({"background-size":"100% 100%"});
         $('#headertitle').css({"font-size":"45px"});
-        $('#description').css({"font-size":"15px"}); 
+        $('#description').css({"font-size":"18px"}); 
       }
   }
 

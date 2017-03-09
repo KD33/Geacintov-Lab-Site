@@ -67,11 +67,10 @@ a { color: inherit; }
 /*      HOMEPAGE        */
 
 .fullmenucontainer{
-    padding:7px 0px 5px 28.5vw;
-    background-color: #e0e0e0;
+    padding:5px 0px 5px 0px;
+    background-color: #dbdbdb;
     margin:0;
-    /*border-right:25px solid #e5e5e5;
-    border-left:25px solid #e5e5e5;*/
+    text-align: center;
 }
 .fullmenuitem{
     display:inline-block;
@@ -87,19 +86,17 @@ a { color: inherit; }
     border: 2px solid rgba(255,255,255,.25);
     background-color: rgba(255, 138, 101,.7);
     cursor:pointer;
-}
-.filler{
-    display:inline-block;
-    width:12vw;
+    padding-bottom: 10px;
 }
 .fullmenuitemselected{
     display:inline-block;
     text-align: center;
+    margin: 0px 8vw 0px 8vw;
     height:50px;
     width:50px;
-    font-size: 20px;
+    font-size: 19px;
     border-radius: 75px;
-    padding-top: 7px;
+    padding-top: 10px;
     padding-left:2px;
     color:white;
     text-decoration:none;
@@ -108,7 +105,7 @@ a { color: inherit; }
     background-color: rgba(0, 0, 0,.6);
 }
 .fullmenuitem:hover{
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0,0,0,.4);
 }
 
 
@@ -142,7 +139,6 @@ a { color: inherit; }
 }
 #description{
     font-family: 'Anaheim';
-    font-size:17px;
     color:#7a7a7a;
     padding-left: 75px;
 }
@@ -211,13 +207,13 @@ a { color: inherit; }
     padding:20px;
 }
 #researchtext{
-    padding:50px 10% 70px 10%;
+    padding:60px 10% 80px 10%;
     background-color: #686868;
     color: #c9c7c7;
 
 }
 #locationtext{
-    padding:50px 0px 50px 0px;
+    padding:70px 0px 60px 0px;
     background-color: #545353;
     color: #c9c7c7;
 }
