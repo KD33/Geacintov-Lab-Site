@@ -19,38 +19,45 @@
 </head>
 <body>
 
-    <ul id = "menu" class= "menucontainer">
+    <div id = "menu" class= "menucontainer">
 
-        <li class= "dropdownelementburger" >
-            <i class="fa fa-bars"></i>
-        </li>
+        <div class= "dropdownelementburger" >
+          <i class="fa fa-bars"></i>
+        </div>
 
-        <a data-placement="right" data-toggle = "tooltip" title = "Homepage" href="../index.html"> 
-          <li class = "dropdownelement"> 
-              <i class="fa fa-university"></i>
-        </li></a>
 
-        <a  data-placement="right" data-toggle = "tooltip" title = "People/Staff" href="./geacintov-site.people.html"> <li class = "dropdownelement"> 
-            <i class="fa fa-users"></i>
-        </li></a>
-        
-        <a data-placement="right" data-toggle = "tooltip" title = "Publications/Books">
-            <li class = "dropdownelementselected"> 
-            <i class="fa fa-book"></i>
-        </li></a>
-    </ul>
+      <a data-placement="right" data-toggle = "tooltip" title = "Homepage" href="../index.html" style = "display:inline-block">
+        <div class = "dropdownelement">
+            <i class="fa fa-university"></i>
+      </div></a>
+
+
+        <a data-toggle = "tooltip" title = "People/Staff" href="./geacintov-site.people.html" data-placement="right"  style = "display:inline-block; width:45px;height:58px">
+          <div class = "dropdownelement" >
+            <i class="fa fa-book "></i>
+          </div>
+        </a>
+
+
+        <div class = "dropdownelementselected" > 
+          <i class="fa fa-users"></i>
+        </div >
+
+    </div>
 
     <!-- Header Section-->
 
 
         <div id ="headercontainer">
             <div class = "animated slideInDown" id = "headertitle" >THE GEACINTOV LABORATORY            
-                <span  class = "animated slideInDown"  id = "headerdescription" >
-                    Books & Publications
-                </span> 
              </div>
+
+            <div  class = "animated slideInDown"  id = "headerdescription" >
+                Books & Publications
+            </div> 
+
              <hr id = "headerhr"/>
-            <div style = "width:70%;">
+            <div style = "width:80%;">
                 <div class = "animated fadeIn" id = "description">
                   <span id = "booktitle">The Chemical Biology of DNA Damage: </span>Bringing the power of biochemical analysis to toxicology, this modern reference explains genotoxicity at the molecular level, showing the links between a DNA lesion and the resulting cellular or organismic response. 
                 </div>
@@ -65,9 +72,7 @@
       <div class = "animated fadeInUp" id = "publicationscontainer">
         <div class = "subsectionname">PUBLICATIONS</div>
             <div id = "publicationReactJS"></div>
-        
-        <hr/>
-        
+                
         <div class = "row">
             <div class = "col-12"  id = "footer">
               All content copyright New York University. All rights reserved.
