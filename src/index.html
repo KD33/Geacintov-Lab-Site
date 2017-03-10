@@ -6,7 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=.8, maximum-scale=1, user-scalable=no">
     <meta name="author" content="Sam Mao & Kadeem Walsh">
-
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Anaheim|Dosis|Catamaran|Raleway:300|Roboto" rel="stylesheet">
 
@@ -28,27 +29,32 @@
           </div>
         </div>
     </div>
-    <ul id = "menu" class= "menucontainer">
+    <div id = "menu" class= "menucontainer">
 
-        <li class= "dropdownelementburger" >
-            <i class="fa fa-bars"></i>
-        </li>
-
-
-          <li id = "itemselected" class = "dropdownelementselected" > <i class="fa fa-university"></i>
-        </li >
+        <div class= "dropdownelementburger" >
+          <i class="fa fa-bars"></i>
+        </div>
 
 
-        <a style = "margin: 0px 8vw 0px 8vw;" data-toggle = "tooltip" title = "People/Staff" href="./html/geacintov-site.people.html" data-placement="right">
-            <li id = "item"  class = "dropdownelement"> <i class="fa fa-users"></i>
-        </li></a>
+        <div id = "itemselected" class = "dropdownelementselected" > 
+          <i class="fa fa-university"></i>
+        </div >
 
 
-        <a style = "margin: 0px 8vw 0px 8vw;"  data-toggle = "tooltip" title = "Publications/Books" href="./html/geacintov-site.books.publications.html" data-placement="right">
-            <li id = "item2"  class = "dropdownelement">  <i class="fa fa-book "></i>
-        </li></a>
+            <div class = "it" style = "display:inline-block;margin: 0px 8vw 0px 8vw;">
+              <a   data-toggle = "tooltip" title = "People/Staff" href="./html/geacintov-site.people.html" data-placement="right"> 
+              
+              <div id = "item"  class = "dropdownelement" ><i class="fa fa-users"></i> </div>
 
-    </ul>
+              </a>
+            </div>      
+
+        <div class = "it" style = "display:inline-block;margin: 0px 8vw 0px 8vw;">
+          <a data-toggle = "tooltip" title = "Publications/Books" href="./html/geacintov-site.books.publications.html" data-placement="right">
+            <div id = "item2"  class = "dropdownelement" > <i class="fa fa-book " style = "min-width:20px"></i>  </div>
+          </a>
+        </div>
+    </div>
 
         <div id = "overviewcontainer" >
           <div class = "animated fadeIn" >
@@ -118,7 +124,7 @@
         </div>
         <div class = "col-12 col-md-6" id="locationtext">
             <div class = "footertitle">LOCATION</div>
-            31 Washington Pl <br/> NY NY 10003, <br/> Brown 453
+            31 Washington Pl NY NY 10003, <br/> Brown 453
         </div>
         </div>
         <div class = "col-12"  id = "footer">

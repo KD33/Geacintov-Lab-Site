@@ -6,44 +6,47 @@ html { height: 100%;
 body {
     min-height: 100%;
     min-width:400px;
-    padding:30px 30px 0px 30px;
+    padding:20px 20px 0px 20px;
 }
 
 a { color: inherit; }
 
+a:link, a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+}
 /*              */
+
 
 
 
 .menucontainer{
     width:45px;
     background-color:#afa89c;
-    border-radius: 3px;
-    opacity:.7;
+    border-radius: 5px;
+    opacity:.85;
     padding:0px;
     position:fixed;
     top:20px;
     height:270px;
-    margin:10vh 0px 0px 15px;
+    margin:6vh 0px 0px 10px;
     z-index:100;
-    box-shadow: 1px 6px 6px rgba(0,0,0,0.16), 1px 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 1px 3px 3px rgba(0,0,0,0.16), 1px 3px 3px rgba(0,0,0,0.23);
 }
 .dropdownelement{
-    text-decoration:none;
     cursor:pointer;
-    list-style-type: none;
     color:white;
     font-size:18px;
+    display:inline-block;
     padding:13px;
     height:60px;
-
 }
 .dropdownelement:hover{
     background-color: rgba(0,0,0,.2);
 }
 .dropdownelementselected{
-    text-decoration:none;
-    list-style-type: none;
     color:white;
     font-size:19px;
     padding:13px;
@@ -64,6 +67,7 @@ a { color: inherit; }
 }
 
 
+
 /*      HOMEPAGE        */
 
 .fullmenucontainer{
@@ -73,18 +77,15 @@ a { color: inherit; }
     text-align: center;
 }
 .fullmenuitem{
-    display:inline-block;
     text-align: center;
     height:50px;
     width:50px;
     font-size: 20px;
     color:white;
-    text-decoration:none;
-    list-style-type: none;
     border-radius: 75px;
     padding-top: 10px;
     border: 2px solid rgba(255,255,255,.25);
-    background-color: rgba(255, 138, 101,.7);
+    background-color: rgba(0,0,0,.3);
     cursor:pointer;
     padding-bottom: 10px;
 }
@@ -99,13 +100,11 @@ a { color: inherit; }
     padding-top: 10px;
     padding-left:2px;
     color:white;
-    text-decoration:none;
-    list-style-type: none;
     border: 2px solid rgba(255, 138, 101,.9);
     background-color: rgba(0, 0, 0,.6);
 }
 .fullmenuitem:hover{
-    background-color: rgba(0,0,0,.4);
+    background-color:rgba(255, 138, 101,.7)
 }
 
 
@@ -208,7 +207,7 @@ a { color: inherit; }
     padding:20px;
 }
 #researchtext{
-    padding:60px 10% 80px 10%;
+    padding:70px 10% 80px 10%;
     background-color: #686868;
     color: #c9c7c7;
 

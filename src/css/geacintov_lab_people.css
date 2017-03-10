@@ -13,36 +13,30 @@ a { color: inherit; }
 /*              */
 
 
-
 .menucontainer{
     width:45px;
     background-color:#afa89c;
     border-radius: 5px;
-    opacity:.85;
+    opacity:.7;
     padding:0px;
     position:fixed;
     top:20px;
     height:270px;
-    margin:6vh 0px 0px 40px;
+    margin:6vh 0px 0px 35px;
     z-index:100;
     box-shadow: 1px 3px 3px rgba(0,0,0,0.16), 1px 3px 3px rgba(0,0,0,0.23);
 }
 .dropdownelement{
-    text-decoration:none;
     cursor:pointer;
-    list-style-type: none;
     color:white;
     font-size:18px;
     padding:13px;
     height:60px;
-
 }
 .dropdownelement:hover{
     background-color: rgba(0,0,0,.2);
 }
 .dropdownelementselected{
-    text-decoration:none;
-    list-style-type: none;
     color:white;
     font-size:19px;
     padding:13px;
@@ -62,12 +56,13 @@ a { color: inherit; }
     cursor:pointer;
 }
 
+
 #headercontainer{
     padding: 120px 0px 90px 0px;
     background-color:rgba(230, 230, 230,.9);
     background-image: url('../images/HeaderBackground3.png');
     background-size: 100% 100%;
-    margin:30px;
+    margin:20px;
 }
 
 #headertitle{
@@ -75,7 +70,7 @@ a { color: inherit; }
     font-family: 'Raleway';
     padding-left: 90px;
     padding-right:18.5vw;
-    margin:-30px 0px 0px 0px;
+    margin:-20px 0px 0px 0px;
 }
 #headerdescription{
     font-family: 'Raleway';
@@ -103,19 +98,20 @@ a { color: inherit; }
     text-align: center;
     font-family: 'Raleway';
     font-size:33px;
-    padding:20px 0px 25px 0px;
+    margin:20px 0px 25px 0px;
 }
 
 
 /*      PEOPLE/STAFF        */
 .peoplesection{
-   background-color:#efefef;
-   margin:-28px 30px 30px 30px;
+   background-color:#f2f2f2;
+   margin:-18px 20px 30px 20px;
    padding:20px;
 }
 .peopleimagestyle{
     width:260px;
     height:200px;
+
 }
 
 .peopleimagecontainer{
@@ -124,6 +120,7 @@ a { color: inherit; }
     margin:20px;
     width:264px;
     font-size: 14px;
+    background-color:white;
 }
 
 #footer{

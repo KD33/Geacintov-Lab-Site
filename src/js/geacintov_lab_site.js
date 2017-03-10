@@ -6,6 +6,7 @@
         $('#menu').removeClass().addClass('fullmenucontainer');
         $('#item').removeClass().addClass('fullmenuitem');        
         $('#item2').removeClass().addClass('fullmenuitem ');    
+        $('.it').css({"margin":"0px 8vw 0px 8vw"});
         $('#itemselected').removeClass().addClass('fullmenuitemselected'); 
         $('.dropdownelementburger').hide(); 
       }
@@ -14,6 +15,7 @@
         $('#item').removeClass().addClass('dropdownelement');        
         $('#item2').removeClass().addClass('dropdownelement');     
         $('#itemselected').removeClass().addClass('dropdownelementselected');       
+        $('.it').css({"margin":"0px"});
         $('.dropdownelementburger').show(); 
       } 
 

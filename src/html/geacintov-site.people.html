@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=.6, maximum-scale=1, user-scalable=no">
     <meta name="author" content="Sam Mao & Kadeem Walsh">
-
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -19,27 +19,33 @@
   </head>
 
   <body>
+    <div id = "menu" class= "menucontainer">
 
-  <ul id = "menu" class= "menucontainer">
-      <li class= "dropdownelementburger" >
+        <div class= "dropdownelementburger" >
           <i class="fa fa-bars"></i>
-      </li>
+        </div>
 
-      <a data-placement="right" data-toggle = "tooltip" title = "Homepage" href="../index.html">
-        <li class = "dropdownelement">
+
+      <a data-placement="right" data-toggle = "tooltip" title = "Homepage" href="../index.html" style = "display:inline-block">
+        <div class = "dropdownelement">
             <i class="fa fa-university"></i>
-      </li></a>
+      </div></a>
 
-          <a data-toggle = "tooltip" title = "People/Staff" data-placement="right">
-        <li class = "dropdownelementselected">
-        <i class="fa fa-users"></i>
-        </li></a>
 
-      <a  data-placement="right" data-toggle = "tooltip" title = "Publications/Books" href = "./geacintov-site.books.publications.html">
-          <li class = "dropdownelement">
-          <i class="fa fa-book"></i>
-      </li></a>
-  </ul>
+        <div id = "itemselected" class = "dropdownelementselected" > 
+          <i class="fa fa-users"></i>
+        </div >
+
+
+        <a data-toggle = "tooltip" title = "Publications/Books" href="./geacintov-site.books.publications.html" data-placement="right"  style = "display:inline-block; width:45px;height:58px">
+          <div id = "item2"  class = "dropdownelement" >
+            <i class="fa fa-book "></i>
+          </div>
+        </a>
+
+    </div>
+
+
 
   <div id ="headercontainer">
     <div class = "animated slideInDown" id = "headertitle" >
@@ -60,6 +66,7 @@
 
   <div class="peoplesection">
     <div class = "subsectionname">CURRENT STAFF</div>
+      <hr style = "background-color:grey; width:60vw;"/>    
       <div style="display: inline-block;text-align: center">
 
           <div class="hvr-grow peopleimagecontainer">
