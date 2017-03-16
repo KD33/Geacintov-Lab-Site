@@ -6,7 +6,7 @@
         $('#menu').removeClass().addClass('fullmenucontainer');
         $('#item').removeClass().addClass('fullmenuitem');        
         $('#item2').removeClass().addClass('fullmenuitem ');    
-        $('.it').css({"margin":"0px 8vw 0px 8vw"});
+        $('.it').css({"margin":"0px 12vw 0px 12vw"});
         $('#itemselected').removeClass().addClass('fullmenuitemselected'); 
         $('.dropdownelementburger').hide(); 
       }
@@ -25,16 +25,16 @@
   {
       var header = $('#homepageheadercontainer'); //this = window
 
-      if (header.width() < 800) {
+      if (header.width() < 900) {
         $('#X').css({"width":"70%"});
-        header.css({"background-size":"1200px 100%"});
+        header.css({"background-size":"1400px 100%"});
         $('#headertitle').css({"font-size":"35px"});
         $('#description').css({"font-size":"14px"});
       }else{
         $('#X').css({"width":"60%"});
         header.css({"background-size":"100% 100%"});
         $('#headertitle').css({"font-size":"45px"});
-        $('#description').css({"font-size":"18px"}); 
+        $('#description').css({"font-size":"16px"}); 
       }
   }
 
